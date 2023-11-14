@@ -1,0 +1,55 @@
+#g-knights-exchange {
+  width: 200px;
+  height: 250px;
+}
+#g-knights-exchange::before {
+  background-image: url(../images/g-knights-exchange-board.svg);
+}
+#g-knights-exchange .chess-elem {
+  width: 25%;
+  height: 20%;
+}
+
+#g-k-e-1::before,
+#g-k-e-2::before,
+#g-k-e-3::before,
+#g-k-e-4::before,
+#g-k-e-5::before,
+#g-k-e-6::before,
+#g-k-e-7::before,
+#g-k-e-8::before {
+  background-image: url(../images/chess-black.svg);
+}
+
+#g-k-e-1 {
+  top: 0%;
+  left: 50%;
+}
+#g-k-e-2 {
+  top: 0%;
+  left: 25%;
+}
+#g-k-e-3 {
+  top: 20%;
+  left: 0%;
+}
+#g-k-e-4 {
+  top: 40%;
+  left: 0%;
+}
+#g-k-e-5 {
+  top: 80%;
+  left: 25%;
+}
+#g-k-e-6 {
+  top: 80%;
+  left: 50%;
+}
+#g-k-e-7 {
+  top: 60%;
+  left: 75%;
+}
+#g-k-e-8 {
+  top: 40%;
+  left: 75%;
+}

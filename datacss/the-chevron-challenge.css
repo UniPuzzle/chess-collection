@@ -1,0 +1,37 @@
+/* =========the-chevron-challenge========== */
+.the-chevron-challenge-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/quarter_proof.png);
+}
+
+.the-chevron-challenge_1 {
+  top: 19%;
+  left: 38%;
+}
+.the-chevron-challenge_2 {
+  top: 33.2%;
+  left: 20%;
+}
+.the-chevron-challenge_3 {
+  top: 33.2%;
+  left: 56%;
+}
+.the-chevron-challenge_4 {
+  top: 47%;
+  left: 38%;
+}
+.the-chevron-challenge_5 {
+  top: 61%;
+  left: 20%;
+}
+.the-chevron-challenge_6 {
+  top: 61%;
+  left: 56%;
+}

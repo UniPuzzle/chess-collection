@@ -1,0 +1,38 @@
+/* =========y-upside-down========= */
+.y-upside-down-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/bitcoin.png);
+}
+
+.y-upside-down_1 {
+  top: 15%;
+  left: 15.5%;
+}
+
+.y-upside-down_2 {
+  top: 15%;
+  left: 59.5%;
+}
+.y-upside-down_3 {
+  top: 35%;
+  left: 15.5%;
+}
+.y-upside-down_4 {
+  top: 35%;
+  left: 59.5%;
+}
+.y-upside-down_5 {
+  top: 44%;
+  left: 37.5%;
+}
+.y-upside-down_6 {
+  top: 64%;
+  left: 37.5%;
+}

@@ -1,0 +1,41 @@
+/* =========eight-to-g========= */
+.eight-to-g-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/british1penny-over.png);
+}
+
+.eight-to-g_1 {
+  top: 20%;
+  left: 13%;
+}
+.eight-to-g_2 {
+  top: 20%;
+  left: 38%;
+}
+.eight-to-g_3 {
+  top: 40%;
+  left: 13%;
+}
+.eight-to-g_4 {
+  top: 40%;
+  left: 38%;
+}
+.eight-to-g_5 {
+  top: 40%;
+  left: 63%;
+}
+.eight-to-g_6 {
+  top: 60%;
+  left: 38%;
+}
+.eight-to-g_7 {
+  top: 60%;
+  left: 63%;
+}

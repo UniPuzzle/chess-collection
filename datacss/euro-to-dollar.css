@@ -1,0 +1,48 @@
+/* ==========euro-to-dollar======== */
+.euro-to-dollar-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/quarter_proof.png);
+}
+.euro-to-dollar_1 {
+  top: 0%;
+  left: 61%;
+}
+.euro-to-dollar_2 {
+  top: 0%;
+  left: 36%;
+}
+.euro-to-dollar_3 {
+  top: 10%;
+  left: 14.5%;
+}
+.euro-to-dollar_4 {
+  top: 30%;
+  left: 14.5%;
+}
+.euro-to-dollar_5 {
+  top: 40%;
+  left: 36%;
+}
+.euro-to-dollar_6 {
+  top: 50%;
+  left: 14.5%;
+}
+.euro-to-dollar_7 {
+  top: 70%;
+  left: 14.5%;
+}
+.euro-to-dollar_8 {
+  top: 80%;
+  left: 36%;
+}
+.euro-to-dollar_9 {
+  top: 80%;
+  left: 61%;
+}

@@ -1,0 +1,34 @@
+/* ===========wi-fi-switch========= */
+
+.wi-fi-switch-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-image: url(../images/one_cent_rev.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wi-fi-switch_1 {
+  top: 20.5%;
+  left: 12.5%;
+}
+.wi-fi-switch_2 {
+  top: 40%;
+  left: 12.5%;
+}
+.wi-fi-switch_3 {
+  top: 40%;
+  left: 37.5%;
+}
+.wi-fi-switch_4 {
+  top: 60%;
+  left: 37.5%;
+}
+.wi-fi-switch_5 {
+  top: 60%;
+  left: 62.2%;
+}

@@ -1,0 +1,55 @@
+#eight-knights-in-the-seven {
+  width: 200px;
+  height: 200px;
+}
+#eight-knights-in-the-seven::before {
+  background-image: url(../images/eight-knights-in-the-seven-board.svg);
+}
+#eight-knights-in-the-seven .chess-elem {
+  width: 25%;
+  height: 25%;
+}
+
+#e-k-s-1::before,
+#e-k-s-2::before,
+#e-k-s-3::before,
+#e-k-s-4::before,
+#e-k-s-5::before,
+#e-k-s-6::before,
+#e-k-s-7::before,
+#e-k-s-8::before {
+  background-image: url(../images/chess-black.svg);
+}
+
+#e-k-s-1 {
+  top: 0%;
+  left: 50%;
+}
+#e-k-s-2 {
+  top: 0%;
+  left: 75%;
+}
+#e-k-s-3 {
+  top: 25%;
+  left: 50%;
+}
+#e-k-s-4 {
+  top: 25%;
+  left: 75%;
+}
+#e-k-s-5 {
+  top: 50%;
+  left: 25%;
+}
+#e-k-s-6 {
+  top: 50%;
+  left: 50%;
+}
+#e-k-s-7 {
+  top: 75%;
+  left: 25%;
+}
+#e-k-s-8 {
+  top: 75%;
+  left: 50%;
+}

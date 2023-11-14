@@ -1,0 +1,33 @@
+/* ===========trapezoid-to-arch=========== */
+.trapezoid-to-arch-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/50_cent_rev.png);
+}
+
+.trapezoid-to-arch_1 {
+  top: 25%;
+  left: 37%;
+}
+.trapezoid-to-arch_2 {
+  top: 35%;
+  left: 15.6%;
+}
+.trapezoid-to-arch_3 {
+  top: 45%;
+  left: 37%;
+}
+.trapezoid-to-arch_4 {
+  top: 35%;
+  left: 58.6%;
+}
+.trapezoid-to-arch_5 {
+  top: 55%;
+  left: 15.6%;
+}

@@ -1,0 +1,44 @@
+/* ==========olympic-coins========== */
+.olympic-coins-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/1eurocent.png);
+}
+.olympic-coins-img-src_2::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/10eurocent.png);
+}
+
+.olympic-coins_1 {
+  top: 34%;
+  left: 0%;
+}
+.olympic-coins_2 {
+  top: 34%;
+  left: 37.5%;
+}
+.olympic-coins_3 {
+  top: 34%;
+  left: 75%;
+}
+.olympic-coins_4 {
+  top: 47%;
+  left: 18.7%;
+}
+.olympic-coins_5 {
+  top: 47%;
+  left: 56.2%;
+}

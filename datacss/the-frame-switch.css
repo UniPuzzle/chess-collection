@@ -1,0 +1,45 @@
+/* ==========the-frame-switch========= */
+.the-frame-switch-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/dime_reverse_13.png);
+}
+
+.the-frame-switch_1 {
+  top: 20%;
+  left: 13%;
+}
+.the-frame-switch_2 {
+  top: 20%;
+  left: 38%;
+}
+.the-frame-switch_3 {
+  top: 40%;
+  left: 13%;
+}
+.the-frame-switch_4 {
+  top: 40%;
+  left: 38%;
+}
+.the-frame-switch_5 {
+  top: 40%;
+  left: 63%;
+}
+.the-frame-switch_6 {
+  top: 60%;
+  left: 13%;
+}
+.the-frame-switch_7 {
+  top: 60%;
+  left: 38%;
+}
+.the-frame-switch_8 {
+  top: 60%;
+  left: 63%;
+}

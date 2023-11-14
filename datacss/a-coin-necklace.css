@@ -1,0 +1,48 @@
+.a-coin-necklace-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/nickel_rev.png);
+}
+
+.a-coin-necklace_1 {
+  top: 13.5%;
+  left: 25%;
+}
+.a-coin-necklace_2 {
+  top: 13.5%;
+  left: 50%;
+}
+.a-coin-necklace_3 {
+  top: 31%;
+  left: 13%;
+}
+.a-coin-necklace_4 {
+  top: 31%;
+  left: 62%;
+}
+.a-coin-necklace_5 {
+  top: 48%;
+  left: 0%;
+}
+.a-coin-necklace_6 {
+  top: 48%;
+  left: 75%;
+}
+.a-coin-necklace_7 {
+  top: 65.5%;
+  left: 12.5%;
+}
+.a-coin-necklace_8 {
+  top: 65.5%;
+  left: 37.5%;
+}
+.a-coin-necklace_9 {
+  top: 65.5%;
+  left: 62.5%;
+}

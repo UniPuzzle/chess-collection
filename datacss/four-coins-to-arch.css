@@ -1,0 +1,29 @@
+/* ============four-coins-to-arch========== */
+.four-coins-to-arch-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/litecoin.png);
+}
+
+.four-coins-to-arch_1 {
+  top: 32%;
+  left: 31%;
+}
+.four-coins-to-arch_2 {
+  top: 32%;
+  left: 56%;
+}
+.four-coins-to-arch_3 {
+  top: 49.4%;
+  left: 18.5%;
+}
+.four-coins-to-arch_4 {
+  top: 49.4%;
+  left: 43.5%;
+}

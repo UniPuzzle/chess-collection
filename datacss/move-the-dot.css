@@ -1,0 +1,33 @@
+/* =========move-the-dot======== */
+.move-the-dot-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/one_yen_obverse.png);
+}
+
+.move-the-dot_1 {
+  top: 20%;
+  left: 38%;
+}
+.move-the-dot_2 {
+  top: 20%;
+  left: 63%;
+}
+.move-the-dot_3 {
+  top: 40%;
+  left: 63%;
+}
+.move-the-dot_4 {
+  top: 40%;
+  left: 38%;
+}
+.move-the-dot_5 {
+  top: 60.5%;
+  left: 12.5%;
+}

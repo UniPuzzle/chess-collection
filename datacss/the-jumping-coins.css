@@ -1,0 +1,38 @@
+/* =========the-jumping-coins======== */
+
+.the-jumping-coins-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/2euro.png);
+}
+
+.the-jumping-coins_1 {
+  top: 44%;
+  left: 2%;
+}
+.the-jumping-coins_2 {
+  top: 44%;
+  left: 16%;
+}
+.the-jumping-coins_3 {
+  top: 44%;
+  left: 30%;
+}
+.the-jumping-coins_4 {
+  top: 44%;
+  left: 57%;
+}
+.the-jumping-coins_5 {
+  top: 44%;
+  left: 71%;
+}
+.the-jumping-coins_6 {
+  top: 44%;
+  left: 85%;
+}

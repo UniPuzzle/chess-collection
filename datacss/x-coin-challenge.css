@@ -1,0 +1,33 @@
+.x-coin-challenge-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/bitcoin.png);
+}
+/* ============x-coin-challenge========== */
+
+.x-coin-challenge_1 {
+  top: 23%;
+  left: 25.5%;
+}
+.x-coin-challenge_2 {
+  top: 23%;
+  left: 50.5%;
+}
+.x-coin-challenge_3 {
+  top: 40%;
+  left: 38%;
+}
+.x-coin-challenge_4 {
+  top: 57.4%;
+  left: 25.5%;
+}
+.x-coin-challenge_5 {
+  top: 57.4%;
+  left: 50.5%;
+}

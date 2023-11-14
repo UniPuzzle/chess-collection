@@ -1,0 +1,53 @@
+.chess-wrapper {
+  background-color: red;
+  /* background-color: #273763; */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.chess-wrapper::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.chess-elem {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.chess-elem::before {
+  content: '';
+  width: 100%;
+  height: 87%;
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ================== */
+.wrapp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-wrapp {
+  position: relative;
+  /* display: flex; */
+  /* align-items: center; */
+  /* width: 100%; */
+  margin: 20px;
+  /* height: 287px; */
+  /* border-radius: 15px 15px 0 0;
+  background-color: #1a385e; */
+}
+p {
+  text-align: center;
+}
+
+/* ======================================= */

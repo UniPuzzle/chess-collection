@@ -1,0 +1,37 @@
+/* ==========glass-to-cup========== */
+.glass-to-cup-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/50_cent_rev.png);
+}
+
+.glass-to-cup_1 {
+  top: 20%;
+  left: 25%;
+}
+.glass-to-cup_2 {
+  top: 20%;
+  left: 50%;
+}
+.glass-to-cup_3 {
+  top: 40%;
+  left: 25%;
+}
+.glass-to-cup_4 {
+  top: 40%;
+  left: 50%;
+}
+.glass-to-cup_5 {
+  top: 60%;
+  left: 25%;
+}
+.glass-to-cup_6 {
+  top: 60%;
+  left: 50%;
+}

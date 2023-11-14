@@ -1,0 +1,41 @@
+/* =========house-downsizing========== */
+.house-downsizing-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/british1penny.png);
+}
+
+.house-downsizing_1 {
+  top: 13%;
+  left: 36.6%;
+}
+.house-downsizing_2 {
+  top: 30%;
+  left: 24%;
+}
+.house-downsizing_3 {
+  top: 30%;
+  left: 49%;
+}
+.house-downsizing_4 {
+  top: 47.5%;
+  left: 12%;
+}
+.house-downsizing_5 {
+  top: 47.5%;
+  left: 61.5%;
+}
+.house-downsizing_6 {
+  top: 67.5%;
+  left: 12%;
+}
+.house-downsizing_7 {
+  top: 67.5%;
+  left: 61.5%;
+}

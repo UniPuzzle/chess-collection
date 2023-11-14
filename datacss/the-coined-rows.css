@@ -1,0 +1,44 @@
+.the-coined-rows-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/dime_obverse_13.png);
+}
+
+.the-coined-rows_1 {
+  top: 0%;
+  left: 40%;
+}
+.the-coined-rows_2 {
+  top: 21%;
+  left: 23%;
+}
+.the-coined-rows_3 {
+  top: 21%;
+  left: 56%;
+}
+.the-coined-rows_4 {
+  top: 42.5%;
+  left: 12%;
+}
+.the-coined-rows_5 {
+  top: 42.5%;
+  left: 70%;
+}
+.the-coined-rows_6 {
+  top: 63.5%;
+  left: 23%;
+}
+.the-coined-rows_7 {
+  top: 63.5%;
+  left: 56%;
+}
+.the-coined-rows_8 {
+  top: 84%;
+  left: 40%;
+}

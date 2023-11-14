@@ -1,0 +1,30 @@
+/* ==========l-tetromino-flip=========== */
+.l-tetromino-flip-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/one_cent_rev.png);
+}
+
+.l-tetromino-flip_1 {
+  top: 20%;
+  left: 25%;
+}
+
+.l-tetromino-flip_2 {
+  top: 40%;
+  left: 25%;
+}
+.l-tetromino-flip_3 {
+  top: 60%;
+  left: 25%;
+}
+.l-tetromino-flip_4 {
+  top: 60%;
+  left: 50%;
+}

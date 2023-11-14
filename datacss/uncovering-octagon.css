@@ -1,0 +1,45 @@
+/* ==========uncovering-octagon========= */
+.uncovering-octagon-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/one_yen_reverse.png);
+}
+
+.uncovering-octagon_1 {
+  top: 21%;
+  left: 24%;
+}
+.uncovering-octagon_2 {
+  top: 21%;
+  left: 49%;
+}
+.uncovering-octagon_3 {
+  top: 38.5%;
+  left: 12%;
+}
+.uncovering-octagon_4 {
+  top: 38.5%;
+  left: 37%;
+}
+.uncovering-octagon_5 {
+  top: 38.5%;
+  left: 62%;
+}
+.uncovering-octagon_6 {
+  top: 58.5%;
+  left: 12%;
+}
+.uncovering-octagon_7 {
+  top: 58.5%;
+  left: 37%;
+}
+.uncovering-octagon_8 {
+  top: 58.5%;
+  left: 62%;
+}

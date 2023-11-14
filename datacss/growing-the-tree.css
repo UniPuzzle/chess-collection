@@ -1,0 +1,44 @@
+.growing-the-tree-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/2euro.png);
+}
+
+.growing-the-tree_1 {
+  top: 20%;
+  left: 12%;
+}
+.growing-the-tree_2 {
+  top: 20%;
+  left: 37%;
+}
+.growing-the-tree_3 {
+  top: 20%;
+  left: 62%;
+}
+.growing-the-tree_4 {
+  top: 40%;
+  left: 62%;
+}
+.growing-the-tree_5 {
+  top: 60%;
+  left: 62%;
+}
+.growing-the-tree_6 {
+  top: 60%;
+  left: 37%;
+}
+.growing-the-tree_7 {
+  top: 60%;
+  left: 12%;
+}
+.growing-the-tree_8 {
+  top: 40%;
+  left: 12%;
+}

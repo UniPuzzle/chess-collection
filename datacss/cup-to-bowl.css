@@ -1,0 +1,33 @@
+/* ==========cup-to-bowl========== */
+.cup-to-bowl-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/five_yen_obverse.png);
+}
+
+.cup-to-bowl_1 {
+  top: 30%;
+  left: 12%;
+}
+.cup-to-bowl_2 {
+  top: 50%;
+  left: 12%;
+}
+.cup-to-bowl_3 {
+  top: 50%;
+  left: 37%;
+}
+.cup-to-bowl_4 {
+  top: 50%;
+  left: 62%;
+}
+.cup-to-bowl_5 {
+  top: 30%;
+  left: 62%;
+}

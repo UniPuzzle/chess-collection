@@ -1,0 +1,33 @@
+/* =========anchor-upside-down========== */
+.anchor-upside-down-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/5eurocent.png);
+}
+
+.anchor-upside-down_1 {
+  top: 10%;
+  left: 37.5%;
+}
+.anchor-upside-down_2 {
+  top: 30%;
+  left: 37.5%;
+}
+.anchor-upside-down_3 {
+  top: 60%;
+  left: 16%;
+}
+.anchor-upside-down_4 {
+  top: 70%;
+  left: 37.5%;
+}
+.anchor-upside-down_5 {
+  top: 60%;
+  left: 58.7%;
+}

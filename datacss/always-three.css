@@ -1,0 +1,38 @@
+/* =========always-three========== */
+
+.always-three-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/20eurocent.png);
+}
+
+.always-three_1 {
+  top: 14%;
+  left: 0%;
+}
+.always-three_2 {
+  top: 14%;
+  left: 37.5%;
+}
+.always-three_3 {
+  top: 14%;
+  left: 75%;
+}
+.always-three_4 {
+  top: 40%;
+  left: 18.5%;
+}
+.always-three_5 {
+  top: 40%;
+  left: 56.5%;
+}
+.always-three_6 {
+  top: 66%;
+  left: 37.6%;
+}

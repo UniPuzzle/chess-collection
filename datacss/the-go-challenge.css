@@ -1,0 +1,49 @@
+/* ==========the-go-challenge=========== */
+.the-go-challenge-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/nickel_obv.png);
+}
+
+.the-go-challenge_1 {
+  top: 13.5%;
+  left: 25%;
+}
+.the-go-challenge_2 {
+  top: 31%;
+  left: 13%;
+}
+.the-go-challenge_3 {
+  top: 41%;
+  left: 41%;
+}
+.the-go-challenge_4 {
+  top: 31%;
+  left: 62%;
+}
+.the-go-challenge_5 {
+  top: 48%;
+  left: 0%;
+}
+.the-go-challenge_6 {
+  top: 48%;
+  left: 75%;
+}
+.the-go-challenge_7 {
+  top: 65.5%;
+  left: 12.5%;
+}
+.the-go-challenge_8 {
+  top: 65.5%;
+  left: 37.5%;
+}
+.the-go-challenge_9 {
+  top: 65.5%;
+  left: 62.5%;
+}

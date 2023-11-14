@@ -1,0 +1,57 @@
+.sailing-west-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/1euro.png);
+}
+/* ========sailing-west========= */
+
+.sailing-west_1 {
+  top: 10%;
+  left: 40%;
+}
+.sailing-west_2 {
+  top: 26%;
+  left: 40%;
+}
+.sailing-west_3 {
+  top: 26%;
+  left: 60%;
+}
+.sailing-west_4 {
+  top: 42%;
+  left: 60%;
+}
+.sailing-west_5 {
+  top: 42%;
+  left: 40%;
+}
+.sailing-west_6 {
+  top: 58%;
+  left: 40%;
+}
+.sailing-west_7 {
+  top: 66.5%;
+  left: 2%;
+}
+.sailing-west_8 {
+  top: 74%;
+  left: 20%;
+}
+.sailing-west_9 {
+  top: 74%;
+  left: 40%;
+}
+.sailing-west_10 {
+  top: 74%;
+  left: 60%;
+}
+.sailing-west_11 {
+  top: 66.5%;
+  left: 78%;
+}

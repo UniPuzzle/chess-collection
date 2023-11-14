@@ -1,0 +1,33 @@
+/* =========mirror-the-snake========== */
+.mirror-the-snake-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/ripple.png);
+}
+
+.mirror-the-snake_1 {
+  top: 10%;
+  left: 16.5%;
+}
+.mirror-the-snake_2 {
+  top: 30%;
+  left: 16.5%;
+}
+.mirror-the-snake_3 {
+  top: 40%;
+  left: 38%;
+}
+.mirror-the-snake_4 {
+  top: 50%;
+  left: 59.5%;
+}
+.mirror-the-snake_5 {
+  top: 70%;
+  left: 59.5%;
+}

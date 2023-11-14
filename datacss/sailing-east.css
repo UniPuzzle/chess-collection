@@ -1,0 +1,57 @@
+/* =========sailing-east========= */
+.sailing-east-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/one_yen_obverse.png);
+}
+
+.sailing-east_1 {
+  top: 0%;
+  left: 38%;
+}
+.sailing-east_2 {
+  top: 20%;
+  left: 38%;
+}
+.sailing-east_3 {
+  top: 20%;
+  left: 13%;
+}
+.sailing-east_4 {
+  top: 40%;
+  left: 13%;
+}
+.sailing-east_5 {
+  top: 40%;
+  left: 38%;
+}
+.sailing-east_6 {
+  top: 60%;
+  left: 38%;
+}
+.sailing-east_7 {
+  top: 62.5%;
+  left: 1%;
+}
+.sailing-east_8 {
+  top: 80%;
+  left: 13%;
+}
+.sailing-east_9 {
+  top: 80%;
+  left: 38%;
+}
+.sailing-east_10 {
+  top: 80%;
+  left: 63%;
+}
+.sailing-east_11 {
+  top: 62.5%;
+  left: 75%;
+}

@@ -1,0 +1,44 @@
+.cut-off-the-corners-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/1euro.png);
+}
+
+.cut-off-the-corners_1 {
+  top: 10%;
+  left: 80%;
+}
+.cut-off-the-corners_2 {
+  top: 10%;
+  left: 40%;
+}
+.cut-off-the-corners_3 {
+  top: 10%;
+  left: 0%;
+}
+.cut-off-the-corners_4 {
+  top: 42%;
+  left: 0%;
+}
+.cut-off-the-corners_5 {
+  top: 74%;
+  left: 0%;
+}
+.cut-off-the-corners_6 {
+  top: 74%;
+  left: 40%;
+}
+.cut-off-the-corners_7 {
+  top: 74%;
+  left: 80%;
+}
+.cut-off-the-corners_8 {
+  top: 42%;
+  left: 80%;
+}

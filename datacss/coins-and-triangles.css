@@ -1,0 +1,53 @@
+/* ==========coins-and-triangles========== */
+.coins-and-triangles-img-src_1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background-image: url(../images/five_yen_obverse.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.coins-and-triangles_1 {
+  top: 14%;
+  left: 37.5%;
+}
+.coins-and-triangles_2 {
+  top: 31.25%;
+  left: 25%;
+}
+.coins-and-triangles_3 {
+  top: 31.25%;
+  left: 50%;
+}
+.coins-and-triangles_4 {
+  top: 48.5%;
+  left: 12.45%;
+}
+.coins-and-triangles_5 {
+  top: 48.5%;
+  left: 37.5%;
+}
+.coins-and-triangles_6 {
+  top: 48.5%;
+  left: 62.4%;
+}
+.coins-and-triangles_7 {
+  top: 65.9%;
+  left: 0%;
+}
+.coins-and-triangles_8 {
+  top: 65.9%;
+  left: 25%;
+}
+.coins-and-triangles_9 {
+  top: 65.9%;
+  left: 50%;
+}
+.coins-and-triangles_10 {
+  top: 65.9%;
+  left: 75%;
+}
