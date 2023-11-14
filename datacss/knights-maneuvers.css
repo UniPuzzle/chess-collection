@@ -1,0 +1,46 @@
+#knights-maneuvers {
+  width: 200px;
+  height: 200px;
+}
+
+#knights-maneuvers::before {
+  background-image: url(../images/knights-maneuvers-board.svg);
+}
+#knights-maneuvers .chess-elem {
+  width: 25%;
+  height: 25%;
+}
+
+#k-m-1::before,
+#k-m-2::before,
+#k-m-3::before,
+#k-m-4::before,
+#k-m-5::before,
+#k-m-6::before {
+  background-image: url(../images/chess-black.svg);
+}
+
+#k-m-1 {
+  top: 0%;
+  left: 50%;
+}
+#k-m-2 {
+  top: 0%;
+  left: 75%;
+}
+#k-m-3 {
+  top: 25%;
+  left: 75%;
+}
+#k-m-4 {
+  top: 50%;
+  left: 0%;
+}
+#k-m-5 {
+  top: 75%;
+  left: 0%;
+}
+#k-m-6 {
+  top: 75%;
+  left: 25%;
+}
