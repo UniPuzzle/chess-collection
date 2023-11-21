@@ -5,20 +5,13 @@
 #eight-knights-in-the-seven::before {
   background-image: url(../images/eight-knights-in-the-seven-board.svg);
 }
-#eight-knights-in-the-seven .chess-elem {
+#eight-knights-in-the-seven .knight-b {
   width: 25%;
   height: 25%;
 }
-
-#e-k-s-1::before,
-#e-k-s-2::before,
-#e-k-s-3::before,
-#e-k-s-4::before,
-#e-k-s-5::before,
-#e-k-s-6::before,
-#e-k-s-7::before,
-#e-k-s-8::before {
-  background-image: url(../images/chess-black.svg);
+#eight-knights-in-the-seven .knight-w {
+  width: 25%;
+  height: 25%;
 }
 
 #e-k-s-1 {

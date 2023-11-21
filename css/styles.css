@@ -15,12 +15,12 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.chess-elem {
+.chess-wrapper div {
   position: absolute;
   display: flex;
   align-items: center;
 }
-.chess-elem::before {
+/* .chess-elem::before {
   content: '';
   width: 100%;
   height: 87%;
@@ -28,6 +28,26 @@
   position: absolute;
   background-repeat: no-repeat;
   background-position: center;
+} */
+.knight-b::before {
+  content: '';
+  width: 100%;
+  height: 87%;
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chess-black.svg);
+}
+.knight-w::before {
+  content: '';
+  width: 100%;
+  height: 87%;
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chess-white.svg);
 }
 
 /* ================== */

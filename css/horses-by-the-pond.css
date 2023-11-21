@@ -6,18 +6,13 @@
 #horses-by-the-pond::before {
   background-image: url(../images/horses-by-the-pond-board.svg);
 }
-#horses-by-the-pond .chess-elem {
+#horses-by-the-pond .knight-b {
   width: 16.66%;
   height: 33.33%;
 }
-
-#h-b-p-1::before,
-#h-b-p-2::before,
-#h-b-p-3::before,
-#h-b-p-4::before,
-#h-b-p-5::before,
-#h-b-p-6::before {
-  background-image: url(../images/chess-black.svg);
+#horses-by-the-pond .knight-w {
+  width: 16.66%;
+  height: 33.33%;
 }
 
 #h-b-p-1 {

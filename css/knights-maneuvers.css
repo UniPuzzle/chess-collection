@@ -6,18 +6,13 @@
 #knights-maneuvers::before {
   background-image: url(../images/knights-maneuvers-board.svg);
 }
-#knights-maneuvers .chess-elem {
+#knights-maneuvers .knight-b {
   width: 25%;
   height: 25%;
 }
-
-#k-m-1::before,
-#k-m-2::before,
-#k-m-3::before,
-#k-m-4::before,
-#k-m-5::before,
-#k-m-6::before {
-  background-image: url(../images/chess-black.svg);
+#knights-maneuvers .knight-w {
+  width: 25%;
+  height: 25%;
 }
 
 #k-m-1 {

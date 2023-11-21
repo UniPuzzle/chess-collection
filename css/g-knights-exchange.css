@@ -5,20 +5,13 @@
 #g-knights-exchange::before {
   background-image: url(../images/g-knights-exchange-board.svg);
 }
-#g-knights-exchange .chess-elem {
+#g-knights-exchange .knight-b {
   width: 25%;
   height: 20%;
 }
-
-#g-k-e-1::before,
-#g-k-e-2::before,
-#g-k-e-3::before,
-#g-k-e-4::before,
-#g-k-e-5::before,
-#g-k-e-6::before,
-#g-k-e-7::before,
-#g-k-e-8::before {
-  background-image: url(../images/chess-black.svg);
+#g-knights-exchange .knight-w {
+  width: 25%;
+  height: 20%;
 }
 
 #g-k-e-1 {

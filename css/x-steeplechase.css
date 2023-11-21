@@ -5,20 +5,13 @@
 #x-steeplechase::before {
   background-image: url(../images/x-steeplechase-board.svg);
 }
-#x-steeplechase .chess-elem {
+#x-steeplechase .knight-b {
   width: 33.33%;
   height: 20%;
 }
-
-#x-s-1::before,
-#x-s-2::before,
-#x-s-3::before,
-#x-s-4::before,
-#x-s-5::before,
-#x-s-6::before,
-#x-s-7::before,
-#x-s-8::before {
-  background-image: url(../images/chess-black.svg);
+#x-steeplechase .knight-w {
+  width: 33.33%;
+  height: 20%;
 }
 
 #x-s-1 {

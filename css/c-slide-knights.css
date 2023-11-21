@@ -6,18 +6,13 @@
 #c-slide-knights::before {
   background-image: url(../images/c-slide-knights-board.svg);
 }
-#c-slide-knights .chess-elem {
+#c-slide-knights .knight-b {
   width: 20%;
   height: 20%;
 }
-
-#c-s-k-1::before,
-#c-s-k-2::before,
-#c-s-k-3::before,
-#c-s-k-4::before,
-#c-s-k-5::before,
-#c-s-k-6::before {
-  background-image: url(../images/chess-black.svg);
+#c-slide-knights .knight-w {
+  width: 20%;
+  height: 20%;
 }
 
 #c-s-k-1 {
