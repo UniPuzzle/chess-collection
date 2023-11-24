@@ -1,0 +1,48 @@
+#knights-maneuvers {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/4 auto;
+}
+
+@media screen and (min-width: 768px) {
+  #knights-maneuvers {
+    width: auto;
+    height: 100%;
+  }
+}
+#knights-maneuvers::before {
+  background-image: url(../images/knights-maneuvers-board.svg);
+}
+#knights-maneuvers .knight-b {
+  width: 25%;
+  height: 25%;
+}
+#knights-maneuvers .knight-w {
+  width: 25%;
+  height: 25%;
+}
+
+#k-m-1 {
+  top: 0%;
+  left: 50%;
+}
+#k-m-2 {
+  top: 0%;
+  left: 75%;
+}
+#k-m-3 {
+  top: 25%;
+  left: 75%;
+}
+#k-m-4 {
+  top: 50%;
+  left: 0%;
+}
+#k-m-5 {
+  top: 75%;
+  left: 0%;
+}
+#k-m-6 {
+  top: 75%;
+  left: 25%;
+}

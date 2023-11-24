@@ -1,0 +1,88 @@
+#knights-in-the-castle {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/4 auto;
+}
+@media screen and (min-width: 768px) {
+  #knights-in-the-castle {
+    width: auto;
+    height: 100%;
+  }
+}
+#knights-in-the-castle::before {
+  background-image: url(../images/knights-in-the-castle.svg);
+}
+#knights-in-the-castle .knight-b {
+  width: 25%;
+  height: 25%;
+}
+#knights-in-the-castle .knight-w {
+  width: 25%;
+  height: 25%;
+}
+
+.goal#knights-in-the-castle #k-i-t-c-1 {
+  top: 25%;
+  left: 75%;
+}
+.goal#knights-in-the-castle #k-i-t-c-2 {
+  top: 25%;
+  left: 50%;
+}
+.goal#knights-in-the-castle #k-i-t-c-3 {
+  top: 25%;
+  left: 25%;
+}
+.goal#knights-in-the-castle #k-i-t-c-4 {
+  top: 25%;
+  left: 0%;
+}
+.goal#knights-in-the-castle #k-i-t-c-5 {
+  top: 50%;
+  left: 75%;
+}
+.goal#knights-in-the-castle #k-i-t-c-6 {
+  top: 50%;
+  left: 50%;
+}
+.goal#knights-in-the-castle #k-i-t-c-7 {
+  top: 50%;
+  left: 25%;
+}
+.goal#knights-in-the-castle #k-i-t-c-8 {
+  top: 50%;
+  left: 0%;
+}
+
+#k-i-t-c-1 {
+  top: 25%;
+  left: 0%;
+}
+#k-i-t-c-2 {
+  top: 25%;
+  left: 25%;
+}
+#k-i-t-c-3 {
+  top: 25%;
+  left: 50%;
+}
+#k-i-t-c-4 {
+  top: 25%;
+  left: 75%;
+}
+#k-i-t-c-5 {
+  top: 50%;
+  left: 0%;
+}
+#k-i-t-c-6 {
+  top: 50%;
+  left: 25%;
+}
+#k-i-t-c-7 {
+  top: 50%;
+  left: 50%;
+}
+#k-i-t-c-8 {
+  top: 50%;
+  left: 75%;
+}

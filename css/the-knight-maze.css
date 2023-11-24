@@ -1,0 +1,49 @@
+#the-knight-maze {
+  height: 100%;
+  aspect-ratio: 3/4 auto;
+}
+#the-knight-maze::before {
+  background-image: url(../images/the-knight-maze.svg);
+}
+#the-knight-maze .knight-b {
+  width: 33.33%;
+  height: 25%;
+}
+#the-knight-maze .knight-w {
+  width: 33.33%;
+  height: 25%;
+}
+
+.goal#the-knight-maze #t-k-m-1 {
+  top: 50%;
+  left: 33.33%;
+}
+.goal#the-knight-maze #t-k-m-2 {
+  top: 75%;
+  left: 33.33%;
+}
+.goal#the-knight-maze #t-k-m-3 {
+  top: 0%;
+  left: 66.6%;
+}
+.goal#the-knight-maze #t-k-m-4 {
+  top: 25%;
+  left: 0%;
+}
+
+#t-k-m-1 {
+  top: 0%;
+  left: 66.6%;
+}
+#t-k-m-2 {
+  top: 25%;
+  left: 0%;
+}
+#t-k-m-3 {
+  top: 50%;
+  left: 33.33%;
+}
+#t-k-m-4 {
+  top: 75%;
+  left: 33.33%;
+}

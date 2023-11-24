@@ -1,0 +1,44 @@
+#horses-by-the-pond {
+  width: 100%;
+  /* height: 47%; */
+  aspect-ratio: 6/3 auto;
+  /* width: 300px;
+  height: 150px; */
+}
+
+#horses-by-the-pond::before {
+  background-image: url(../images/horses-by-the-pond-board.svg);
+}
+#horses-by-the-pond .knight-b {
+  width: 16.66%;
+  height: 33.33%;
+}
+#horses-by-the-pond .knight-w {
+  width: 16.66%;
+  height: 33.33%;
+}
+
+#h-b-p-1 {
+  top: 0%;
+  left: 0%;
+}
+#h-b-p-2 {
+  top: 33.33%;
+  left: 0%;
+}
+#h-b-p-3 {
+  top: 66.6%;
+  left: 0%;
+}
+#h-b-p-4 {
+  top: 0%;
+  left: 83.3%;
+}
+#h-b-p-5 {
+  top: 33.3%;
+  left: 83.3%;
+}
+#h-b-p-6 {
+  top: 66.6%;
+  left: 83.3%;
+}

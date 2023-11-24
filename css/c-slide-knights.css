@@ -1,6 +1,14 @@
 #c-slide-knights {
-  width: 250px;
-  height: 250px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 5/5 auto;
+}
+
+@media screen and (min-width: 768px) {
+  #c-slide-knights {
+    width: auto;
+    height: 100%;
+  }
 }
 
 #c-slide-knights::before {
@@ -13,6 +21,31 @@
 #c-slide-knights .knight-w {
   width: 20%;
   height: 20%;
+}
+
+.goal#c-slide-knights #c-s-k-1 {
+  top: 80%;
+  left: 20%;
+}
+.goal#c-slide-knights #c-s-k-2 {
+  top: 80%;
+  left: 40%;
+}
+.goal#c-slide-knights #c-s-k-3 {
+  top: 80%;
+  left: 60%;
+}
+.goal#c-slide-knights #c-s-k-4 {
+  top: 0%;
+  left: 20%;
+}
+.goal#c-slide-knights #c-s-k-5 {
+  top: 0%;
+  left: 40%;
+}
+.goal#c-slide-knights #c-s-k-6 {
+  top: 0%;
+  left: 60%;
 }
 
 #c-s-k-1 {

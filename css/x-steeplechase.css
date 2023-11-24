@@ -1,6 +1,6 @@
 #x-steeplechase {
-  width: 150px;
-  height: 250px;
+  height: 100%;
+  aspect-ratio: 3/5 auto;
 }
 #x-steeplechase::before {
   background-image: url(../images/x-steeplechase-board.svg);
@@ -14,6 +14,38 @@
   height: 20%;
 }
 
+.goal#x-steeplechase #x-s-1 {
+  top: 80%;
+  left: 0%;
+}
+.goal#x-steeplechase #x-s-2 {
+  top: 80%;
+  left: 66.6%;
+}
+.goal#x-steeplechase #x-s-3 {
+  top: 60%;
+  left: 0%;
+}
+.goal#x-steeplechase #x-s-4 {
+  top: 60%;
+  left: 66.6%;
+}
+.goal#x-steeplechase #x-s-5 {
+  top: 20%;
+  left: 0%;
+}
+.goal#x-steeplechase #x-s-6 {
+  top: 20%;
+  left: 66.6%;
+}
+.goal#x-steeplechase #x-s-7 {
+  top: 0%;
+  left: 0%;
+}
+.goal#x-steeplechase #x-s-8 {
+  top: 0%;
+  left: 66.6%;
+}
 #x-s-1 {
   top: 0%;
   left: 0%;
