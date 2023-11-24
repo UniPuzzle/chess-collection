@@ -211,20 +211,84 @@ body {
   aspect-ratio: 1/0.4;
   z-index: 999999;
 }
+.figures {
+  position: absolute;
+  top: 85%;
+  display: flex;
+  left: 0%;
+  gap: 15px;
+  width: 70%;
+  height: auto;
+  align-items: center;
+  justify-content: flex-end;
+}
+.rhombus {
+  width: 33px;
+  height: 33px;
+}
+.circle {
+  width: 33px;
+  height: 33px;
+}
+.triangle {
+  width: 33px;
+  height: 33px;
+}
+.rhombus::before {
+  content: '';
+  width: 30px;
+  height: 30px;
+
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/rhombus.svg);
+  /* aspect-ratio: 1/0.4; */
+  z-index: 999999;
+}
+.circle::before {
+  content: '';
+  width: 30px;
+  height: 30px;
+
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/circle.svg);
+  /* aspect-ratio: 1/0.4; */
+  z-index: 999999;
+}
+.triangle::before {
+  content: '';
+  width: 30px;
+  height: 30px;
+
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/triangle.svg);
+  /* aspect-ratio: 1/0.4; */
+  z-index: 999999;
+}
+
+/* ======================== */
 
 .circle-wrapp {
   width: 85%;
   position: absolute;
   aspect-ratio: 1/1.7;
 }
-.circle {
+/* .circle {
   position: absolute;
   width: 18%;
   aspect-ratio: 1/1;
-  /* border-radius: 50%; */
+  border-radius: 50%;
   border: 2px solid grey;
   overflow: hidden;
-}
+} */
 .circle-1 {
   top: 1.6%;
   left: 79%;
