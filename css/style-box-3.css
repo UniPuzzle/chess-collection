@@ -1,27 +1,7 @@
 body {
   font-size: 10px;
 }
-.mob-wrapp {
-  border: 10px solid red;
-  position: relative;
-  background-color: antiquewhite;
-  width: 100%;
-  /* height: 100vh; */
-  aspect-ratio: 1/1.8;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-/* .mob-wrapp::before {
-  content: '';
-  width: 85%;
-  height: 85%;
-  background-size: contain;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(../images/img.svg);
-} */
+
 .box {
   height: 10%;
   background-size: contain;
@@ -127,18 +107,18 @@ body {
   width: 100%;
   height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 .svg {
   width: 80%;
   position: absolute;
-  aspect-ratio: 0.8/1.7;
+  /* aspect-ratio: 0.8/1.7; */
 }
 .svg-2 {
   width: 80%;
   position: absolute;
-  aspect-ratio: 0.8/1.7;
+  /* aspect-ratio: 0.8/1.7; */
   pointer-events: none;
 }
 /* .svg::before {
@@ -154,61 +134,63 @@ body {
   z-index: 999999;
 } */
 .colors {
+  width: 80%;
   position: absolute;
-  top: 72%;
-  right: 5%;
-  width: 20%;
-  aspect-ratio: 1/1.2;
+  height: 80vh;
+
+  pointer-events: none;
 }
 .red {
-  top: 0;
+  bottom: 30%;
+  left: 90%;
   position: absolute;
-  width: 100%;
 }
 .yellow {
-  top: 50%;
+  bottom: 20%;
+  left: 90%;
   position: absolute;
-  width: 100%;
 }
 .blue {
-  top: 100%;
+  bottom: 10%;
+  left: 90%;
   position: absolute;
-  width: 100%;
 }
 .red::before {
   content: '';
-  width: 100%;
+  width: 50px;
+  height: 50px;
 
   background-size: contain;
   position: absolute;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../images/red.svg);
-  aspect-ratio: 1/0.4;
+  background-image: url(../images/svg/red.svg);
+  /* aspect-ratio: 1/0.4; */
   z-index: 999999;
 }
 .yellow::before {
   content: '';
-  width: 100%;
-
+  width: 50px;
+  height: 50px;
   background-size: contain;
   position: absolute;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../images/yellow.svg);
-  aspect-ratio: 1/0.4;
+  background-image: url(../images/svg/yellow.svg);
+  /* aspect-ratio: 1/0.4; */
   z-index: 999999;
 }
 .blue::before {
   content: '';
-  width: 100%;
+  width: 50px;
+  height: 50px;
 
   background-size: contain;
   position: absolute;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../images/blue.svg);
-  aspect-ratio: 1/0.4;
+  background-image: url(../images/svg/blue.svg);
+  /* aspect-ratio: 1/0.4; */
   z-index: 999999;
 }
 .figures {
@@ -226,252 +208,62 @@ body {
   margin-left: 15px;
 }
 .rhombus {
-  width: 33px;
-  height: 33px;
+  width: 40px;
+  height: 40px;
 }
 .circle {
-  width: 33px;
-  height: 33px;
+  width: 40px;
+  height: 40px;
 }
 .triangle {
-  width: 33px;
-  height: 33px;
+  width: 40px;
+  height: 40px;
 }
 .rhombus::before {
   content: '';
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 
   background-size: contain;
   position: absolute;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../images/rhombus.svg);
+  background-image: url(../images/svg/rectangle.svg);
   /* aspect-ratio: 1/0.4; */
   z-index: 999999;
 }
 .circle::before {
   content: '';
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 
   background-size: contain;
   position: absolute;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../images/circle.svg);
+  background-image: url(../images/svg/circle.svg);
   /* aspect-ratio: 1/0.4; */
   z-index: 999999;
 }
 .triangle::before {
   content: '';
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 
   background-size: contain;
   position: absolute;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../images/triangle.svg);
+  background-image: url(../images/svg/triangle.svg);
   /* aspect-ratio: 1/0.4; */
   z-index: 999999;
-}
-
-/* ======================== */
-
-.circle-wrapp {
-  width: 85%;
-  position: absolute;
-  aspect-ratio: 1/1.7;
-}
-/* .circle {
-  position: absolute;
-  width: 18%;
-  aspect-ratio: 1/1;
-  border-radius: 50%;
-  border: 2px solid grey;
-  overflow: hidden;
-} */
-.circle-1 {
-  top: 1.6%;
-  left: 79%;
-}
-
-.circle-2 {
-  top: 15.4%;
-  left: 79%;
-}
-.circle-3 {
-  top: 29.3%;
-  left: 79%;
-}
-.circle-4 {
-  top: 43%;
-  left: 78.2%;
-  transform: rotate(8deg);
-}
-.circle-5 {
-  top: 55.9%;
-  left: 72.3%;
-  transform: rotate(24deg);
-}
-.circle-6 {
-  top: 67.4%;
-  left: 61%;
-  transform: rotate(36deg);
-}
-.circle-7 {
-  top: 76.9%;
-  left: 44.3%;
-  transform: rotate(53deg);
-}
-.circle-8 {
-  top: 83.6%;
-  left: 24.7%;
-  transform: rotate(67deg);
-}
-.circle-9 {
-  top: 87.3%;
-  left: 2.9%;
-  transform: rotate(82deg);
-}
-
-/* ===============flare=========== */
-.circle:hover .flare {
-  position: absolute;
-  z-index: 5;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  transform: skewX(-14deg);
-  animation: flareAnimation;
-
-  /* left: -60px; */
-  background: repeating-linear-gradient(
-    -60deg,
-    #555 0,
-    #555 1px,
-    transparent 1px,
-    transparent 5px
-  );
-  animation: flareAnimation 2s 1 linear;
-}
-@keyframes flareAnimation {
-  0% {
-    left: -50px;
-  }
-
-  100% {
-    left: 0%;
-  }
-}
-
-/* =========sectors-wrapp============== */
-.sectors-wrapp {
-  width: 85%;
-  position: absolute;
-  aspect-ratio: 1/1.7;
-}
-.sector {
-  position: absolute;
-}
-.sector::before {
-  position: absolute;
-  content: '';
-  width: 100%;
-  display: flex;
-  height: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.sectors-1 {
-  top: 0%;
-  left: 75.8%;
-  width: 19.2vw;
-  height: 19.2vw;
-}
-.sectors-1::before {
-  background-image: url(../images/svg/Vector.svg);
-}
-.sectors-2 {
-  top: 13.2%;
-  left: 75.8%;
-  width: 19.2vw;
-  height: 19.2vw;
-}
-.sectors-2::before {
-  background-image: url(../images/svg/Vector-1.svg);
-}
-.sectors-3 {
-  top: 26.7%;
-  left: 75.8%;
-  width: 19.2vw;
-  height: 19.2vw;
-}
-.sectors-3::before {
-  background-image: url(../images/svg/Vector-2.svg);
-}
-.sectors-4 {
-  top: 40.1%;
-  left: 73%;
-  width: 21.7vw;
-  height: 21.7vw;
-}
-.sectors-4::before {
-  background-image: url(../images/svg/Vector-3.svg);
-}
-.sectors-5 {
-  top: 51.6%;
-  left: 65.6%;
-  width: 25.1vw;
-  height: 25.1vw;
-}
-.sectors-5::before {
-  background-image: url(../images/svg/Vector-4.svg);
-}
-.sectors-6 {
-  top: 62.1%;
-  left: 53.9%;
-  width: 26.8vw;
-  height: 26.8vw;
-}
-.sectors-6::before {
-  background-image: url(../images/svg/Vector-8.svg);
-}
-.sectors-7 {
-  top: 71.3%;
-  left: 38.3%;
-  width: 26.8vw;
-  height: 26.8vw;
-}
-.sectors-7::before {
-  background-image: url(../images/svg/Vector-7.svg);
-}
-.sectors-8 {
-  top: 78.1%;
-  left: 20.4%;
-  width: 25.3vw;
-  height: 25.3vw;
-}
-.sectors-8::before {
-  background-image: url(../images/svg/Vector-6.svg);
-}
-.sectors-9 {
-  top: 82.6%;
-  left: 1.2%;
-  width: 21.7vw;
-  height: 21.7vw;
-}
-.sectors-9::before {
-  background-image: url(../images/svg/Vector-5.svg);
 }
 
 /* =========tasks-wrap=========== */
 .tasks-wrap {
   width: 80%;
   position: absolute;
-  aspect-ratio: 0.8/1.7;
+  /* aspect-ratio: 0.8/1.7; */
   font-size: 120%;
 }
 
