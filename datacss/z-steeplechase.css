@@ -1,6 +1,6 @@
 #z-steeplechase {
-  width: 150px;
-  height: 200px;
+  width: 100%;
+  aspect-ratio: 3/4 auto;
 }
 #z-steeplechase::before {
   background-image: url(../images/z-steeplechase.svg);
@@ -12,6 +12,31 @@
 #z-steeplechase .knight-w {
   width: 33%;
   height: 25%;
+}
+
+.goal#z-steeplechase #z-s-1 {
+  top: 75%;
+  left: 0%;
+}
+.goal#z-steeplechase #z-s-2 {
+  top: 75%;
+  left: 33.33%;
+}
+.goal#z-steeplechase #z-s-3 {
+  top: 75%;
+  left: 66.6%;
+}
+.goal#z-steeplechase #z-s-4 {
+  top: 0%;
+  left: 0%;
+}
+.goal#z-steeplechase #z-s-5 {
+  top: 0%;
+  left: 33.33%;
+}
+.goal#z-steeplechase #z-s-6 {
+  top: 0%;
+  left: 66.6%;
 }
 
 #z-s-1 {

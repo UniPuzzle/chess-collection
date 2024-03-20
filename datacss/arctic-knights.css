@@ -1,6 +1,6 @@
 #arctic-knights {
-  width: 250px;
-  height: 200px;
+  width: 100%;
+  aspect-ratio: 5/4 auto;
 }
 
 #arctic-knights::before {
@@ -13,6 +13,30 @@
 #arctic-knights .knight-w {
   width: 20%;
   height: 25%;
+}
+.goal#arctic-knights #a-k-1 {
+  top: 50%;
+  left: 80%;
+}
+.goal#arctic-knights #a-k-2 {
+  top: 50%;
+  left: 60%;
+}
+.goal#arctic-knights #a-k-3 {
+  top: 75%;
+  left: 60%;
+}
+.goal#arctic-knights #a-k-4 {
+  top: 75%;
+  left: 20%;
+}
+.goal#arctic-knights #a-k-5 {
+  top: 50%;
+  left: 20%;
+}
+.goal#arctic-knights #a-k-6 {
+  top: 50%;
+  left: 0%;
 }
 
 #a-k-1 {

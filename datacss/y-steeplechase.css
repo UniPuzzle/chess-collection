@@ -1,0 +1,65 @@
+#y-steeplechase {
+  width: 100%;
+  aspect-ratio: 3/4 auto;
+}
+#y-steeplechase::before {
+  background-image: url(../images/y-steeplechase.svg);
+}
+#y-steeplechase .knight-b {
+  width: 33%;
+  height: 25%;
+}
+#y-steeplechase .knight-w {
+  width: 33%;
+  height: 25%;
+}
+
+.goal#y-steeplechase #y-s-1 {
+  top: 0%;
+  left: 66.6%;
+}
+.goal#y-steeplechase #y-s-2 {
+  top: 0%;
+  left: 0%;
+}
+.goal#y-steeplechase #y-s-3 {
+  top: 25%;
+  left: 66.6%;
+}
+.goal#y-steeplechase #y-s-4 {
+  top: 25%;
+  left: 0%;
+}
+.goal#y-steeplechase #y-s-5 {
+  top: 50%;
+  left: 66.6%;
+}
+.goal#y-steeplechase #y-s-6 {
+  top: 50%;
+  left: 0%;
+}
+
+#y-s-1 {
+  top: 0%;
+  left: 0%;
+}
+#y-s-2 {
+  top: 0%;
+  left: 66.6%;
+}
+#y-s-3 {
+  top: 25%;
+  left: 0%;
+}
+#y-s-4 {
+  top: 25%;
+  left: 66.6%;
+}
+#y-s-5 {
+  top: 50%;
+  left: 0%;
+}
+#y-s-6 {
+  top: 50%;
+  left: 66.6%;
+}

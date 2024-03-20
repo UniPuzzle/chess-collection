@@ -1,0 +1,88 @@
+#knights-and-fish {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/4 auto;
+}
+@media screen and (min-width: 768px) {
+  #knights-and-fish {
+    width: auto;
+    height: 100%;
+  }
+}
+#knights-and-fish::before {
+  background-image: url(../images/knights-and-fish.svg);
+}
+#knights-and-fish .knight-b {
+  width: 25%;
+  height: 25%;
+}
+#knights-and-fish .knight-w {
+  width: 25%;
+  height: 25%;
+}
+
+.goal#knights-and-fish #k-a-f-1 {
+  top: 25%;
+  left: 75%;
+}
+.goal#knights-and-fish #k-a-f-2 {
+  top: 50%;
+  left: 75%;
+}
+.goal#knights-and-fish #k-a-f-3 {
+  top: 75%;
+  left: 75%;
+}
+.goal#knights-and-fish #k-a-f-4 {
+  top: 50%;
+  left: 50%;
+}
+.goal#knights-and-fish #k-a-f-5 {
+  top: 0%;
+  left: 0%;
+}
+.goal#knights-and-fish #k-a-f-6 {
+  top: 25%;
+  left: 25%;
+}
+.goal#knights-and-fish #k-a-f-7 {
+  top: 0%;
+  left: 25%;
+}
+.goal#knights-and-fish #k-a-f-8 {
+  top: 0%;
+  left: 50%;
+}
+
+#k-a-f-1 {
+  top: 0%;
+  left: 0%;
+}
+#k-a-f-2 {
+  top: 0%;
+  left: 25%;
+}
+#k-a-f-3 {
+  top: 0%;
+  left: 50%;
+}
+#k-a-f-4 {
+  top: 25%;
+  left: 25%;
+}
+#k-a-f-5 {
+  top: 25%;
+  left: 75%;
+}
+#k-a-f-6 {
+  top: 50%;
+  left: 50%;
+}
+#k-a-f-7 {
+  top: 50%;
+  left: 75%;
+}
+#k-a-f-8 {
+  top: 75%;
+  left: 75%;
+}

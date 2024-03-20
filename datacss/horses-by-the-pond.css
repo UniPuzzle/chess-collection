@@ -1,6 +1,6 @@
 #horses-by-the-pond {
-  width: 300px;
-  height: 150px;
+  width: 100%;
+  aspect-ratio: 6/3 auto;
 }
 
 #horses-by-the-pond::before {
@@ -13,6 +13,31 @@
 #horses-by-the-pond .knight-w {
   width: 16.66%;
   height: 33.33%;
+}
+
+.goal#horses-by-the-pond #h-b-p-1 {
+  top: 0%;
+  left: 83.3%;
+}
+.goal#horses-by-the-pond #h-b-p-2 {
+  top: 33.3%;
+  left: 83.3%;
+}
+.goal#horses-by-the-pond #h-b-p-3 {
+  top: 66.6%;
+  left: 83.3%;
+}
+.goal#horses-by-the-pond #h-b-p-4 {
+  top: 0%;
+  left: 0%;
+}
+.goal#horses-by-the-pond #h-b-p-5 {
+  top: 33.33%;
+  left: 0%;
+}
+.goal#horses-by-the-pond #h-b-p-6 {
+  top: 66.6%;
+  left: 0%;
 }
 
 #h-b-p-1 {

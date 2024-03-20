@@ -4,6 +4,8 @@
 
   position: relative;
   background-color: var(--chs-bar-bg);
+  -webkit-transition-duration: var(--trans-dur);
+  -o-transition-duration: var(--trans-dur);
   transition-duration: var(--trans-dur);
 }
 .chs-bar__card:hover #the-11th-hour-chess-challenge {
@@ -41,15 +43,6 @@
   }
 }
 
-/* @media screen and (min-width: 768px) {
-  #the-11th-hour-chess-challenge {
-    width: auto;
-    height: 100%;
-    background-color: #4a619e;
-    position: relative;
-  }
-} */
-
 #the-11th-hour-chess-challenge .knight-b {
   width: 25%;
   height: 25%;
@@ -65,37 +58,11 @@
   position: absolute;
 }
 
-/* #the-11th-hour-chess-challenge-1 {
-  top: 0%;
-  left: 0%;
-
-  border-bottom-right-radius: 12%;
-  z-index: 2;
-  background-color: var(--chs-bar-bg);
-  transition-duration: var(--trans-dur);
-}
-.chs-bar__card:hover #the-11th-hour-chess-challenge-1 {
-  background-color: var(--chs-bar-bg-hov);
-}
-.goal #the-11th-hour-chess-challenge-1 {
-  background-color: var(--goal-bcg);
-}
-.playfield #the-11th-hour-chess-challenge-1 {
-  background-color: var(--html-color);
-}
-#the-11th-hour-chess-challenge-1-dubl {
-  top: 0%;
-  left: 0%;
-
-  position: absolute;
-  background-color: #48567b;
-  z-index: 1;
-} */
 #the-11th-hour-chess-challenge-2 {
   top: 0%;
   left: 25%;
 
-  background-color: #5cb300;
+  background-color: #00000099;
   border-top-left-radius: 12%;
   border-top-right-radius: 12%;
   z-index: 2;
@@ -107,6 +74,8 @@
   border-bottom-left-radius: 12%;
   z-index: 2;
   background-color: var(--chs-bar-bg);
+  -webkit-transition-duration: var(--trans-dur);
+  -o-transition-duration: var(--trans-dur);
   transition-duration: var(--trans-dur);
 }
 .chs-bar__card:hover #the-11th-hour-chess-challenge-3 {
@@ -123,68 +92,25 @@
   left: 50%;
 
   position: absolute;
-  background-color: #5cb300;
+  background-color: #00000099;
   z-index: 1;
 }
-/* #the-11th-hour-chess-challenge-4 {
-  top: 0%;
-  left: 75%;
 
-  border-bottom-left-radius: 12%;
-  z-index: 2;
-  background-color: var(--chs-bar-bg);
-  transition-duration: var(--trans-dur);
-}
-.chs-bar__card:hover #the-11th-hour-chess-challenge-4 {
-  background-color: var(--chs-bar-bg-hov);
-}
-.goal #the-11th-hour-chess-challenge-4 {
-  background-color: var(--goal-bcg);
-}
-.playfield #the-11th-hour-chess-challenge-4 {
-  background-color: var(--html-color);
-}
-#the-11th-hour-chess-challenge-4-dubl {
-  top: 0%;
-  left: 75%;
-
-  position: absolute;
-  background-color: #afb734;
-  z-index: 1;
-} */
-/* #the-11th-hour-chess-challenge-5 {
-  top: 25%;
-  left: 0%;
-
-  background-color: #48567b;
-  border-top-left-radius: 12%;
-  border-bottom-left-radius: 12%;
-  z-index: 2;
-} */
 #the-11th-hour-chess-challenge-6 {
   top: 25%;
   left: 25%;
 
-  background-color: #ffc451;
+  background-color: #0000002e;
   z-index: 2;
 }
 #the-11th-hour-chess-challenge-7 {
   top: 25%;
   left: 50%;
   border-top-right-radius: 12%;
-  background-color: #5cb300;
+  background-color: #00000099;
   z-index: 2;
 }
 
-/* #the-11th-hour-chess-challenge-8 {
-  top: 25%;
-  left: 75%;
-
-  border-top-right-radius: 12%;
-  border-bottom-right-radius: 12%;
-  background-color: #afb734;
-  z-index: 2;
-} */
 #the-11th-hour-chess-challenge-8 {
   top: 25%;
   left: 75%;
@@ -192,6 +118,8 @@
   border-bottom-left-radius: 12%;
   z-index: 2;
   background-color: var(--chs-bar-bg);
+  -webkit-transition-duration: var(--trans-dur);
+  -o-transition-duration: var(--trans-dur);
   transition-duration: var(--trans-dur);
 }
 .chs-bar__card:hover #the-11th-hour-chess-challenge-8 {
@@ -208,7 +136,7 @@
   left: 75%;
 
   position: absolute;
-  background-color: #5cb300;
+  background-color: #00000099;
   z-index: 1;
 }
 #the-11th-hour-chess-challenge-9 {
@@ -217,6 +145,8 @@
 
   border-bottom-right-radius: 12%;
   background-color: var(--chs-bar-bg);
+  -webkit-transition-duration: var(--trans-dur);
+  -o-transition-duration: var(--trans-dur);
   transition-duration: var(--trans-dur);
 
   z-index: 2;
@@ -235,21 +165,21 @@
   top: 50%;
   left: 0%;
 
-  background-color: #5cb300;
+  background-color: #00000099;
   z-index: 1;
 }
 #the-11th-hour-chess-challenge-10 {
   top: 50%;
   left: 25%;
 
-  background-color: #5cb300;
+  background-color: #00000099;
 }
 
 #the-11th-hour-chess-challenge-11 {
   top: 50%;
   left: 50%;
 
-  background-color: #ffc451;
+  background-color: #0000002e;
   z-index: 2;
 }
 
@@ -258,26 +188,9 @@
   left: 75%;
 
   border-top-right-radius: 12%;
-  background-color: #5cb300;
+  background-color: #00000099;
   z-index: 2;
 }
-
-/* .chs-bar__card:hover #the-11th-hour-chess-challenge-12 {
-  background-color: var(--chs-bar-bg-hov);
-}
-.goal #the-11th-hour-chess-challenge-12 {
-  background-color: var(--goal-bcg);
-}
-.playfield #the-11th-hour-chess-challenge-12 {
-  background-color: var(--html-color);
-}
-#the-11th-hour-chess-challenge-12-dubl {
-  top: 50%;
-  left: 75%;
-
-  background-color: #afb734;
-  z-index: 1;
-} */
 
 #the-11th-hour-chess-challenge-13 {
   top: 75%;
@@ -285,40 +198,26 @@
 
   border-top-left-radius: 12%;
   border-bottom-left-radius: 12%;
-  background-color: #5cb300;
+  background-color: #00000099;
+  -webkit-transition-duration: var(--trans-dur);
+  -o-transition-duration: var(--trans-dur);
   transition-duration: var(--trans-dur);
 
   z-index: 2;
 }
 
-/* .chs-bar__card:hover #the-11th-hour-chess-challenge-13 {
-  background-color: var(--chs-bar-bg-hov);
-}
-.goal #the-11th-hour-chess-challenge-13 {
-  background-color: var(--goal-bcg);
-}
-.playfield #the-11th-hour-chess-challenge-13 {
-  background-color: var(--html-color);
-}
-#the-11th-hour-chess-challenge-13-dubl {
-  top: 75%;
-  left: 0%;
-
-  z-index: 1;
-} */
-
 #the-11th-hour-chess-challenge-14 {
   top: 75%;
   left: 25%;
 
-  background-color: #ffc451;
+  background-color: #0000002e;
   z-index: 2;
 }
 #the-11th-hour-chess-challenge-15 {
   top: 75%;
   left: 50%;
 
-  background-color: #5cb300;
+  background-color: #00000099;
   z-index: 2;
 }
 #the-11th-hour-chess-challenge-16 {
@@ -326,23 +225,9 @@
   left: 75%;
 
   z-index: 2;
-  background-color: #ffc451;
+  background-color: #0000002e;
   border-bottom-right-radius: 12%;
+  -webkit-transition-duration: var(--trans-dur);
+  -o-transition-duration: var(--trans-dur);
   transition-duration: var(--trans-dur);
 }
-/* .chs-bar__card:hover #the-11th-hour-chess-challenge-16 {
-  background-color: var(--chs-bar-bg-hov);
-}
-.goal #the-11th-hour-chess-challenge-16 {
-  background-color: var(--goal-bcg);
-}
-.playfield #the-11th-hour-chess-challenge-16 {
-  background-color: var(--html-color);
-} */
-/* #the-11th-hour-chess-challenge-16-dubl {
-  top: 75%;
-  left: 75%;
-
-  background-color: #48567b;
-  z-index: 1;
-} */

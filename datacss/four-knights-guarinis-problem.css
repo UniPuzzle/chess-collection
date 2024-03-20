@@ -4,6 +4,8 @@
 
   position: relative;
   background-color: var(--chs-bar-bg);
+  -webkit-transition-duration: var(--trans-dur);
+  -o-transition-duration: var(--trans-dur);
   transition-duration: var(--trans-dur);
 }
 .chs-bar__card:hover #four-knights-guarinis-problem {
@@ -41,15 +43,6 @@
   }
 }
 
-/* @media screen and (min-width: 768px) {
-  #four-knights-guarinis-problem {
-    width: auto;
-    height: 100%;
-    background-color: #4a619e;
-    position: relative;
-  }
-} */
-
 #four-knights-guarinis-problem .knight-b {
   width: 33.33%;
   height: 33.33%;
@@ -72,6 +65,8 @@
   border-top-left-radius: 12%;
   z-index: 2;
   background-color: #ffce9e;
+  -webkit-transition-duration: var(--trans-dur);
+  -o-transition-duration: var(--trans-dur);
   transition-duration: var(--trans-dur);
 }
 
@@ -97,6 +92,8 @@
 
   z-index: 2;
   background-color: #d18b47;
+  -webkit-transition-duration: var(--trans-dur);
+  -o-transition-duration: var(--trans-dur);
   transition-duration: var(--trans-dur);
 }
 

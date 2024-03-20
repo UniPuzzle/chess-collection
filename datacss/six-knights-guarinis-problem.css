@@ -1,0 +1,137 @@
+#six-knights-guarinis-problem {
+  height: 100%;
+  width: 75%;
+
+  position: relative;
+  background-color: var(--chs-bar-bg);
+  transition-duration: var(--trans-dur);
+}
+.chs-bar__card:hover #six-knights-guarinis-problem {
+  background-color: var(--chs-bar-bg-hov);
+}
+@supports (aspect-ratio: 3/4) {
+  #six-knights-guarinis-problem {
+    height: 100%;
+    aspect-ratio: 3/4;
+    width: auto;
+  }
+}
+.goal#six-knights-guarinis-problem {
+  background-color: var(--goal-bcg);
+  height: 100%;
+  width: 75%;
+}
+@supports (aspect-ratio: 3/4) {
+  .goal#six-knights-guarinis-problem {
+    width: auto;
+    aspect-ratio: 3/4;
+    height: 100%;
+  }
+}
+.playfield#six-knights-guarinis-problem {
+  background-color: var(--html-color);
+  width: 100%;
+  height: 100%;
+}
+@supports (aspect-ratio: 3/4) {
+  .playfield#six-knights-guarinis-problem {
+    height: 100%;
+    aspect-ratio: 3/4;
+  }
+}
+#six-knights-guarinis-problem .knight-b {
+  width: 33.33%;
+  height: 25%;
+}
+#six-knights-guarinis-problem .knight-w {
+  width: 33.33%;
+  height: 25%;
+}
+
+#six-knights-guarinis-problem .knight {
+  width: 33.33%;
+  height: 25%;
+
+  position: absolute;
+}
+
+#six-knights-guarinis-problem-1 {
+  top: 0%;
+  left: 0%;
+
+  background-color: #e5c4a6;
+  border-top-left-radius: 12%;
+  z-index: 1;
+}
+#six-knights-guarinis-problem-2 {
+  top: 0%;
+  left: 33.33%;
+
+  background-color: #904a28;
+}
+#six-knights-guarinis-problem-3 {
+  top: 0%;
+  left: 66.66%;
+
+  background-color: #e5c4a6;
+  border-top-right-radius: 12%;
+}
+#six-knights-guarinis-problem-4 {
+  top: 25%;
+  left: 0%;
+
+  background-color: #904a28;
+  z-index: 1;
+}
+
+#six-knights-guarinis-problem-5 {
+  top: 25%;
+  left: 33.33%;
+
+  background-color: #e5c4a6;
+}
+#six-knights-guarinis-problem-6 {
+  top: 25%;
+  left: 66.66%;
+
+  background-color: #904a28;
+}
+#six-knights-guarinis-problem-7 {
+  top: 50%;
+  left: 0%;
+
+  background-color: #e5c4a6;
+}
+#six-knights-guarinis-problem-8 {
+  top: 50%;
+  left: 33.33%;
+
+  background-color: #904a28;
+}
+#six-knights-guarinis-problem-9 {
+  top: 50%;
+  left: 66.66%;
+
+  background-color: #e5c4a6;
+}
+
+#six-knights-guarinis-problem-10 {
+  top: 75%;
+  left: 0%;
+
+  background-color: #904a28;
+  border-bottom-left-radius: 12%;
+}
+#six-knights-guarinis-problem-11 {
+  top: 75%;
+  left: 33.33%;
+
+  background-color: #e5c4a6;
+}
+#six-knights-guarinis-problem-12 {
+  top: 75%;
+  left: 66.66%;
+
+  background-color: #904a28;
+  border-bottom-right-radius: 12%;
+}
