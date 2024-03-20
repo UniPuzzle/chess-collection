@@ -1,0 +1,20 @@
+  
+<puzzle id="CHP" class="sqm.chess">
+  <challenge id="23">
+	<date>2021.23.02.07.38.11</date>
+    <designer>
+           	<name type="author" id="SGR">Serhiy Grabarchuk</name>
+	</designer>
+	<title>Arctic Knights</title>
+	<setup goal="image:generate">
+		<rules type="text">ARCTIC KNIGHTS chess puzzle with horse figures. The game literally immerses you in the atmosphere of chivalric novels. The name of the game reveals the main plot of the chess problem. Your main goal is to lead your knights on horseback to the cage where the defending knights are. In other words, the game symbolizes the legendary march of the knights to the winter castle. Move your black and white knights on horseback across the chessboard, avoiding emptiness and gaps in the playing field - these are natural obstacles on your way. The knightly crusade will not be constantly strewn with roses, thorns will soon appear - enemy figures, whose place must be taken. The love of a lady for a noble knight is higher than any titles and awards. But it happened exactly as the poet said: "And his star rolled forever over the edge of the earth." Help our main characters, the knights, conquer the northern castle for their ladies and solve the puzzle chess. Ahead in this game you will find a long way, confrontation, victories and defeats... Our wandering noble knights, heroically overcoming obstacles on the way to their goal (swap pieces), is a mirror of the human soul, constantly striving for the ideal through the thorns of danger</rules>
+        <grid width="5" height="4">
+            <board img="arctic-knights-board.svg">2,6,7,8,10,11,13,14,16,18</board>
+             <piece cell="10">N,w</piece><piece cell="11">N,w</piece><piece cell="13">N,b</piece><piece cell="14">N,b</piece><piece cell="16">N,w</piece><piece cell="18">N,b</piece>                             
+             </grid>  
+		<solution type="generate">14-3,17-14-7,11-8-17-14,15-8-11,19-8-17,12-19-8-15,3-12-9,14-3-12-19,7-14,9-12</solution>
+	</setup>
+ </challenge>
+</puzzle>
+
+ 

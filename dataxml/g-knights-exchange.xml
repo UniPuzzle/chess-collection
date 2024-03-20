@@ -1,0 +1,20 @@
+  
+<puzzle id="CHP" class="sqm.chess">
+  <challenge id="30">
+	<date>2021.15.06.02.03.45</date>
+    <designer>
+           	<name type="author" id="SGR">Serhiy Grabarchuk</name>
+	</designer>
+	<title>G-Knights Exchange</title>
+	<setup goal="image:generate">
+		<rules type="text">G-KNIGHTS EXCHANGE is a kind of test for mastering the material in a playful way. There are four black knights and four white knights on a chessboard in the form of the letter G. Try swapping them. For the solution, try to use no more than 11 moves. It's simple. Chess problems train logical and abstract thinking, develop imagination. This method has been used for a long time. If you have not yet fully mastered the principle of the game, chess puzzles are used to consolidate knowledge in the process of learning chess. If you can’t solve the puzzle chess, then you need to try again to solve the riddle again</rules>
+        <grid width="4" height="5">
+            <board img="g-knights-exchange-board.svg">1,2,4,8,10,11,12,15,17,18</board>
+             <piece cell="1">N,w</piece><piece cell="2">N,w</piece><piece cell="4">N,w</piece><piece cell="8">N,w</piece><piece cell="11">N,b</piece><piece cell="15">N,b</piece><piece cell="17">N,b</piece><piece cell="18">N,b</piece>                             
+             </grid>  
+		<solution type="generate">2-11-13,9-2-11,18-9-2,16-18-9,11-18-16,5-11-18,3-5-11,12-3-5,19-12-3,13-19-12,11-13-19</solution>
+	</setup>
+ </challenge>
+</puzzle>
+
+ 

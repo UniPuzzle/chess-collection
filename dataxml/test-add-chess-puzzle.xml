@@ -1,0 +1,20 @@
+  
+<puzzle id="CHP" class="sqm.chess">
+  <challenge id="29">
+	<date>2021.12.06.11.27.22</date>
+    <designer>
+           	<name type="author" id="MST">Mel Stover</name>
+	</designer>
+	<title>Test Add Chess Puzzle</title>
+	<setup goal="image:generate">
+		<rules type="text">Rules Test</rules>
+        <grid width="4" height="7">
+            <board img="test-add-chess-puzzle-board.jpg">3,5,6,8,10,13,16,18,21,23,26</board>
+             <piece cell="3">B,w</piece><piece cell="5">B,w</piece><piece cell="6">B,w</piece><piece cell="21">B,b</piece><piece cell="23">B,b</piece><piece cell="26">B,b</piece>                             
+             </grid>  
+		<solution type="generate"></solution>
+	</setup>
+ </challenge>
+</puzzle>
+
+ 

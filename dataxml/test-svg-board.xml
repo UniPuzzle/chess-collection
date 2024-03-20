@@ -1,0 +1,20 @@
+  
+<puzzle id="CHP" class="sqm.chess">
+  <challenge id="27">
+	<date>2021.04.03.11.54.17</date>
+    <designer>
+           	<name type="author" id="UNA">Unknown Author</name>
+	</designer>
+	<title>Test Svg Board</title>
+	<setup goal="image:generate">
+		<rules type="text">Test information</rules>
+        <grid width="8" height="8">
+            <board img="test-svg-board.svg">1,10,19,28,36,43,50,57</board>
+             <piece cell="1">B,b</piece><piece cell="10">B,b</piece><piece cell="19">B,w</piece><piece cell="28">B,w</piece><piece cell="36">B,w</piece><piece cell="43">B,b</piece><piece cell="50">B,b</piece><piece cell="57">B,w</piece>                             
+             </grid>  
+		<solution type="generate"></solution>
+	</setup>
+ </challenge>
+</puzzle>
+
+ 

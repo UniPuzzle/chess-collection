@@ -1,0 +1,224 @@
+#knights-maneuvers {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/4 auto;
+  background-color: #4a619e;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  #knights-maneuvers {
+    width: 200px;
+    /* width: auto; */
+    height: 100%;
+    background-color: #4a619e;
+    position: relative;
+  }
+}
+
+#knights-maneuvers .knight-b {
+  width: 25%;
+  height: 25%;
+}
+#knights-maneuvers .knight-w {
+  width: 25%;
+  height: 25%;
+}
+
+.goal#knights-maneuvers {
+  background-color: #f2f2f2;
+}
+.playfield#knights-maneuvers {
+  background-color: #f2f2f2;
+}
+
+#knights-maneuvers .knight {
+  width: 25%;
+  aspect-ratio: 1/1;
+  position: absolute;
+}
+
+#knights-maneuvers-1 {
+  top: 0%;
+  left: 0%;
+
+  background-color: #4a619e;
+  border-bottom-right-radius: 12%;
+  z-index: 2;
+}
+#knights-maneuvers-1-dubl {
+  top: 0%;
+  left: 0%;
+
+  position: absolute;
+  background-color: #5cb300;
+  z-index: 1;
+}
+#knights-maneuvers-2 {
+  top: 0%;
+  left: 25%;
+  z-index: 999;
+  background-color: #5cb300;
+  border-top-left-radius: 12%;
+
+  /* clip-path: path(
+    'M0 0.000854492H13.4414C6.04041 0.000854492 0 6.03684 0 13.4422V0.000854492Z'
+  ); */
+}
+
+/* #knights-maneuvers-2::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/new-chess-2.svg);
+} */
+#knights-maneuvers-3 {
+  top: 0%;
+  left: 50%;
+
+  background-color: #ced662;
+}
+#knights-maneuvers-4 {
+  top: 0%;
+  left: 75%;
+
+  background-color: #5cb300;
+  border-top-right-radius: 12%;
+}
+#knights-maneuvers-5 {
+  top: 25%;
+  left: 0%;
+
+  background-color: #5cb300;
+  border-top-left-radius: 12%;
+}
+#knights-maneuvers-6 {
+  top: 25%;
+  left: 25%;
+
+  background-color: #ced662;
+}
+/* #knights-maneuvers-7 {
+  top: 25%;
+  left: 50%;
+
+  background-color: #ced662;
+} */
+#knights-maneuvers-7 {
+  content: '';
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 10;
+  width: 13%;
+  top: 25%;
+  left: 50%;
+
+  /* clip-path: path( 'M13.4425 0V13.4425H0C7.40167 13.4425 13.4425 7.40167 13.4425 0Z' ); */
+  /* clip-path: url(../images/new-chess-4.svg#l-t); */
+  /* border-top-left-radius: 12%; */
+  /* background-image: url(../images/new-chess-3.svg); */
+  /* background-image: url(../images/r-t.svg); */
+  /* transform: rotate(90deg); */
+}
+#knights-maneuvers-7 div {
+  content: '';
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 10;
+  width: 13%;
+  top: 25%;
+  left: 50%;
+
+  /* clip-path: path( 'M13.4425 0V13.4425H0C7.40167 13.4425 13.4425 7.40167 13.4425 0Z' ); */
+  /* clip-path: url(../images/new-chess-4.svg#l-t); */
+  /* border-top-left-radius: 12%; */
+  /* background-image: url(../images/new-chess-3.svg); */
+
+  /* transform: rotate(90deg); */
+}
+#knights-maneuvers-7-dubl {
+  top: 25%;
+  left: 50%;
+
+  background-color: #4a619e;
+  border-radius: 12%;
+}
+#knights-maneuvers-8 {
+  top: 25%;
+  left: 75%;
+
+  background-color: #ced662;
+}
+#knights-maneuvers-9 {
+  top: 50%;
+  left: 0%;
+
+  background-color: #ced662;
+}
+#knights-maneuvers-10 {
+  top: 50%;
+  left: 25%;
+
+  background-color: #ced662;
+}
+#knights-maneuvers-10-dubl {
+  top: 50%;
+  left: 25%;
+
+  background-color: #4a619e;
+  border-radius: 12%;
+}
+#knights-maneuvers-11 {
+  top: 50%;
+  left: 50%;
+
+  background-color: #ced662;
+}
+#knights-maneuvers-12 {
+  top: 50%;
+  left: 75%;
+
+  background-color: #5cb300;
+  border-bottom-right-radius: 12%;
+}
+#knights-maneuvers-13 {
+  top: 75%;
+  left: 0%;
+
+  background-color: #5cb300;
+  border-bottom-left-radius: 12%;
+}
+#knights-maneuvers-14 {
+  top: 75%;
+  left: 25%;
+
+  background-color: #ced662;
+}
+#knights-maneuvers-15 {
+  top: 75%;
+  left: 50%;
+
+  background-color: #5cb300;
+  border-bottom-right-radius: 12%;
+}
+#knights-maneuvers-16 {
+  top: 75%;
+  left: 75%;
+
+  background-color: #5cb300;
+}
+#knights-maneuvers-16-dubl {
+  top: 75%;
+  left: 75%;
+
+  background-color: #4a619e;
+  border-top-left-radius: 12%;
+}

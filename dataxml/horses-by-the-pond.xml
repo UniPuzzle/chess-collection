@@ -1,0 +1,20 @@
+  
+<puzzle id="CHP" class="sqm.chess">
+  <challenge id="21">
+	<date>2021.23.02.07.36.13</date>
+    <designer>
+           	<name type="author" id="SGR">Serhiy Grabarchuk</name>
+	</designer>
+	<title>Horses by the Pond</title>
+	<setup goal="image:generate">
+		<rules type="text">Horses by the Pond is an interesting "knight's move" chess puzzle that can be played online in your browser. A logic board game using a custom 9x6 chessboard with a pond in the middle, three pieces of white horses and three pieces of black horses. To solve the puzzle chess, the user must go around the lake and swap horses. After a few bad games, you will realize what is preventing you from making a full knight journey: these are the squares that are on the edges of the board, and the corner squares are very difficult to bypass. Perhaps you should reconsider your strategy for advancing the knight: you need to start with difficult squares, and visit the easier central ones later. If the availability of two cells that you can resemble are equal, then you should choose from these two more promising ones, with which in the future you will be able to resemble a cell with less accessibility (more difficult). It is very difficult to complete the chess problem, although this game may seem extremely easy to a novice player. Try it yourself and your logical thinking will certainly improve. Start your journey with a horse</rules>
+        <grid width="6" height="3">
+            <board img="horses-by-the-pond-board.svg">0,1,2,3,4,5,6,11,12,13,14,15,16,17</board>
+             <piece cell="0">N,w</piece><piece cell="5">N,b</piece><piece cell="6">N,w</piece><piece cell="11">N,b</piece><piece cell="12">N,w</piece><piece cell="17">N,b</piece>                             
+             </grid>  
+		<solution type="generate">13-2-15-4-17,12-4-15-2-13,17-4-12,6-17-4-15-2,7-15-4-17-6,1-14-3-7,18-5-16-3-14-1,7-3-16-5-18,2-15-7</solution>
+	</setup>
+ </challenge>
+</puzzle>
+
+ 

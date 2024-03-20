@@ -1,0 +1,50 @@
+:root {
+  --html-color: #f2f2f2;
+  --goal-bcg: #f2f2f2;
+  --chs-bar-bg: #4a619e;
+  --chs-bar-bg-hov: #5c6a91;
+  --trans-dur: 250ms;
+}
+
+.wr {
+  display: flex;
+  position: relative;
+  padding: 15px;
+  /* margin: 0 auto; */
+  width: 160px;
+  height: 160px;
+  align-items: center;
+  justify-content: center;
+}
+.chess-wrapper {
+  /* border: 1px solid; */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+/* ================= */
+.chess-wrapper div {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.knight-b::before {
+  content: '';
+  width: 100%;
+  height: 87%;
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chess-black.svg);
+}
+.knight-w::before {
+  content: '';
+  width: 100%;
+  height: 87%;
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chess-white.svg);
+}

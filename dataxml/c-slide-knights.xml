@@ -1,0 +1,31 @@
+  
+<puzzle id="CHP" class="sqm.chess">
+  <challenge id="18">
+	<date>2021.22.02.06.29.54</date>
+    <designer>
+           	<name type="author" id="SGR">Serhiy Grabarchuk</name>
+	</designer>
+	<title>C-SLIDE-KNIGHTS</title>
+	<setup goal="image:generate">
+		<rules type="text">C-SLIDE-KNIGHTS chess puzzle is the first step in the development of combinational vision and analysis, which is essential for finding opponent's mistakes and determining solutions in typical positions. There are 3 white knights and 3 black ones on the board in the form of the letter C. Swap the black pieces with the white pieces in nine moves. With the help of this chess problem, you can proceed to the analysis of simple combinations. Remember, the more you manage to solve combinations, the higher the class of your chess game will become</rules>
+        <grid width="5" height="5">
+            <board img="c-slide-knights-board.svg">1,2,3,5,6,8,9,10,11,15,16,18,19,21,22,23</board>
+             <!-- <piece cell="1">N,b</piece>
+			 <piece cell="2">N,b</piece>
+			 <piece cell="3">N,b</piece>
+			 <piece cell="21">N,w</piece>
+			 <piece cell="22">N,w</piece>
+			 <piece cell="23">N,w</piece>                              -->
+			 <piece cell="1">R,b</piece>
+			 <piece cell="2">Q,b</piece>
+			 <piece cell="3">B,b</piece>
+			 <piece cell="21">K,b</piece>
+			 <piece cell="22">N,w</piece>
+			 <piece cell="23">N,w</piece>  
+             </grid>  
+		<solution type="generate">23-20,3-10,4-7-16-23-12-9,22-19-12-23-16-7-4,9-12-23,2-11-22,24-17-6-3-12-9-2,10-3-6-17-24,20-9-12-3</solution>
+	</setup>
+ </challenge>
+</puzzle>
+
+ 

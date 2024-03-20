@@ -1,0 +1,54 @@
+  
+<puzzle id="CHP" class="sqm.chess">
+	<challenge id="18">
+		<date>
+			2021.22.02.06.29.54
+		</date>
+	    <designer>
+	           	<name type="author" id="SGS">Serhiy Grabarchuk Jr</name>
+    	</designer>
+		<title>C-SLIDE-KNIGHTS</title>
+		<setup goal="image:generate">
+			<rules type="text"> Swap the black and white knights in the fewest moves</rules>
+            <grid width="5" height="5">
+                                                <board img="cslideknights.svg">
+                                				    1,2,3,5,6,8,9,10,11,15,16,18,19,21,22,23
+                                				</board>
+                                                
+                                                            <piece cell="1">
+                                            					N,b
+                                            				</piece>
+                                                    
+                                                            <piece cell="2">
+                                            					N,b
+                                            				</piece>
+                                                    
+                                                            <piece cell="3">
+                                            					N,b
+                                            				</piece>
+                                                    
+                                                            <piece cell="21">
+                                            					N,w
+                                            				</piece>
+                                                    
+                                                            <piece cell="22">
+                                            					N,w
+                                            				</piece>
+                                                    
+                                                            <piece cell="23">
+                                            					N,w
+                                            				</piece>
+                                                                                 
+                         </grid> 
+            
+            
+            
+            
+			<solution type="generate">
+				Yet to come
+			</solution>
+		</setup>
+	</challenge>
+</puzzle>
+
+ 

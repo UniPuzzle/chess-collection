@@ -1,0 +1,20 @@
+  
+<puzzle id="CHP" class="sqm.chess">
+  <challenge id="19">
+	<date>2021.23.02.07.31.10</date>
+    <designer>
+           	<name type="author" id="SGR">Serhiy Grabarchuk</name>
+	</designer>
+	<title>Z-Steeplechase</title>
+	<setup goal="image:generate">
+		<rules type="text">Z-STEEPLECHASE is an algorithmic chess problem with a positional exchange of two types of objects. Visually, such a movement can be represented through the movement of chess knights. There are six puzzles chess figures on a 3 × 4 chessboard with two empty squares: three white knights in the top row, and three black knights in the bottom row. Propose an algorithm in which black and white pieces exchange positions, as shown in the figure, in the minimum number of moves. One move corresponds to one movement of a piece in accordance with the rules of puzzle chess</rules>
+        <grid width="3" height="4">
+            <board img="z-steeplechase-board.svg">0,1,2,4,5,6,7,9,10,11</board>
+             <piece cell="0">N,w</piece><piece cell="1">N,w</piece><piece cell="2">N,w</piece><piece cell="9">N,b</piece><piece cell="10">N,b</piece><piece cell="11">N,b</piece>                             
+             </grid>  
+		<solution type="generate">1-6-7,11-6-1-8,7-6-11,12-7-6-1,10-5-12-7-6,2-7-12-5-10,6-7-2,11-6-7-12-5,1-6-7-12,8-1-6-7,3-8-1-6-11,7-6-1-8-3,12-7-6-1,5-12</solution>
+	</setup>
+ </challenge>
+</puzzle>
+
+ 

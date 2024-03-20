@@ -1,0 +1,20 @@
+  
+<puzzle id="CHP" class="sqm.chess">
+  <challenge id="31">
+	<date>2022.19.12.08.43.30</date>
+    <designer>
+           	<name type="author" id="SGR">Serhiy Grabarchuk</name>
+	</designer>
+	<title>The Knight Maze</title>
+	<setup goal="image:generate">
+		<rules type="text">The Knight Maze is a unique chess puzzle that takes you to the chessboard in the form of a mysterious labyrinth. Two white and two black horse knights must find the right path and get out of the labyrinth. The task of the logical chess puzzle is to swap two pairs of horses. You can get the knights out of the labyrinth in seven moves. The maze has many options for exits that you can try. In case of a dead end, return to the starting position</rules>
+        <grid width="3" height="4">
+            <board img="the-knight-maze-board.svg">1,2,3,4,5,6,7,8,10,11</board>
+             <piece cell="2">N,w</piece><piece cell="3">N,b</piece><piece cell="7">N,b</piece><piece cell="10">N,w</piece>                             
+             </grid>  
+		<solution type="generate">4-9-2-7,3-4-9-2,8-3-4-9,11-4-3-8,9-4-3,2-9-4,7-6-11</solution>
+	</setup>
+ </challenge>
+</puzzle>
+
+ 

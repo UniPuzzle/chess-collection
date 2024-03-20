@@ -1,0 +1,25 @@
+  
+<puzzle id="CHP" class="sqm.chess">
+  <challenge id="24">
+	<date>2021.23.02.07.39.11</date>
+    <designer>
+           	<name type="author" id="SGR">Serhiy Grabarchuk</name>
+	</designer>
+	<title>Y-Steeplechase</title>
+	<setup goal="image:generate">
+		<rules type="text">Y-STEEPLECHASE is a chess puzzle for developing mental calculation skills. You don't need to know how to play chess to solve this fun puzzle chess. It is enough to know how the knight's piece moves on the board. Black and white horses are arranged on a chessboard in the shape of the letter Y. Place a white or black knight on any free square of the chessboard in such a way as to free the square for another figure. Solve the chess problem by making as few knight moves as possible</rules>
+        <grid width="3" height="4">
+            <board img="y-steeplechase-board.svg">0,2,3,5,6,7,8,10</board>
+             <piece cell="0">N,w</piece>
+			 <piece cell="2">N,b</piece>
+			 <piece cell="3">N,w</piece>
+			 <piece cell="5">N,b</piece>
+			 <piece cell="6">N,w</piece>
+			 <piece cell="8">N,b</piece>                             
+             </grid>  
+		<solution type="generate">3-8,4-3,9-4-11,3-4-9,8-3-4,1-8-3,6-1-8,7-6-1,11-6-7,1-6,8-1</solution>
+	</setup>
+ </challenge>
+</puzzle>
+
+ 

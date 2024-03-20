@@ -1,0 +1,20 @@
+  
+<puzzle id="CHP" class="sqm.chess">
+  <challenge id="32">
+	<date>2022.19.12.08.45.04</date>
+    <designer>
+           	<name type="author" id="SGR">Serhiy Grabarchuk</name>
+	</designer>
+	<title>Knight’s Maneuvers</title>
+	<setup goal="image:generate">
+		<rules type="text">I suppose you've heard the expression Knight's Move? Precisely in the original sense - a cunning, not obvious move. How does a knight move in chess? It is the unique way of walking that distinguishes the horse from other figures. The knight, like most pieces, feels better in the center of the board. While in the middle chess problem, he hits the most variants moves. That is, he uses all his capabilities. Another unique feature of the knight, which the rules of chess endowed it with, is that it can jump over both its own and other people’s pieces. Improve your skills in maneuvering pieces and solve a chess puzzle. Using all the advantages of the knights, swap three whites and three blacks. Although the chess riddle can be solved in seven moves, the number of moves and attempts is not limited</rules>
+        <grid width="4" height="4">
+            <board img="knights-maneuvers-board.svg">1,2,3,4,5,7,8,10,11,12,13,14</board>
+             <piece cell="2">N,b</piece><piece cell="3">N,b</piece><piece cell="7">N,b</piece><piece cell="8">N,w</piece><piece cell="12">N,w</piece><piece cell="13">N,w</piece>                             
+             </grid>  
+		<solution type="generate">14-12,4-11-5-14,9-2-11-4,3-5-11-2-9,13-11-5-3,8-2-11-13,12-6-15-8</solution>
+	</setup>
+ </challenge>
+</puzzle>
+
+ 

@@ -1,0 +1,30 @@
+  
+<puzzle id="CHP" class="sqm.chess">
+	<challenge id="17">
+		<date>
+			2021.22.02.06.27.53
+		</date>
+	    <designer>
+	           	<name type="author" id="SGS">Serhiy Grabarchuk Jr</name>
+    	</designer>
+		<title>X-STEEPLECHASE</title>
+		<setup goal="image:generate">
+			<rules type="text"> Swap the black and white knights in the fewest moves</rules>
+            <grid width="3" height="5">
+                                                <board img="xsteeplechase.svg">
+                                				    0,2,3,4,5,7,9,10,11,12,14
+                                				</board>
+                             
+                         </grid> 
+            
+            
+            
+            
+			<solution type="generate">
+				Yet to come
+			</solution>
+		</setup>
+	</challenge>
+</puzzle>
+
+ 

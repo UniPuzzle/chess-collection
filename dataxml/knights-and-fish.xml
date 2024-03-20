@@ -1,0 +1,20 @@
+  
+<puzzle id="CHP" class="sqm.chess">
+  <challenge id="26">
+	<date>2021.23.02.07.41.57</date>
+    <designer>
+           	<name type="author" id="SGR">Serhiy Grabarchuk</name>
+	</designer>
+	<title>Knights and Fish</title>
+	<setup goal="image:generate">
+		<rules type="text">KNIGHTS AND FISH chess puzzle with knights in which the board is a flat surface in the shape of a fish. The knight can only walk a distance of two squares, it can jump one square to the side like a cat, it can stand on one foot in the middle of the board and jump to any of the eight squares it pleases, it has the pleasant feature of climbing into safe places from where can move in one turn. In terms of resourcefulness, the horse knows no equal, and when you drive him through one slot, he will fit into another. The task of the chess problem is to replace the Four white knights and four black ones. There are many combinations, but the shortest should not exceed 20 moves. There is such scope for all sorts of variations that a true puzzle chess lover will not be able to pass by</rules>
+        <grid width="4" height="4">
+            <board img="knights-and-fish-board.svg">0,1,2,3,5,7,8,9,10,11,13,15</board>
+             <piece cell="0">N,w</piece><piece cell="1">N,w</piece><piece cell="2">N,w</piece><piece cell="5">N,w</piece><piece cell="7">N,b</piece><piece cell="10">N,b</piece><piece cell="11">N,b</piece><piece cell="15">N,b</piece>                             
+             </grid>  
+		<solution type="generate">3-10,12-3,6-12-14,3-12-6,2-9,8-2,10-8,16-10-3,1-10-16,3-12,8-10-3,2-8-10,9-2-8,11-2-9,8-2-11,9-2,10-1,3-10-8,12-3,14-12</solution>
+	</setup>
+ </challenge>
+</puzzle>
+
+ 

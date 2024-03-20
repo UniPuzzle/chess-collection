@@ -1,0 +1,139 @@
+#four-knights-guarinis-problem {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+  background-color: var(--chs-bar-bg);
+  transition-duration: var(--trans-dur);
+}
+.chs-bar__card:hover #four-knights-guarinis-problem {
+  background-color: var(--chs-bar-bg-hov);
+}
+@supports (aspect-ratio: 3/3) {
+  #four-knights-guarinis-problem {
+    width: 100%;
+    aspect-ratio: 3/3;
+    height: auto;
+  }
+}
+.goal#four-knights-guarinis-problem {
+  background-color: var(--goal-bcg);
+  width: 100%;
+  height: 100%;
+}
+@supports (aspect-ratio: 3/3) {
+  .goal#four-knights-guarinis-problem {
+    width: 100%;
+    aspect-ratio: 3/3;
+    height: auto;
+  }
+}
+.playfield#four-knights-guarinis-problem {
+  background-color: var(--html-color);
+  width: 100%;
+  height: 100%;
+}
+@supports (aspect-ratio: 3/3) {
+  .playfield#four-knights-guarinis-problem {
+    width: 100%;
+    aspect-ratio: 3/3;
+    height: auto;
+  }
+}
+
+/* @media screen and (min-width: 768px) {
+  #four-knights-guarinis-problem {
+    width: auto;
+    height: 100%;
+    background-color: #4a619e;
+    position: relative;
+  }
+} */
+
+#four-knights-guarinis-problem .knight-b {
+  width: 33.33%;
+  height: 33.33%;
+}
+#four-knights-guarinis-problem .knight-w {
+  width: 33.33%;
+  height: 33.33%;
+}
+
+#four-knights-guarinis-problem .knight {
+  width: 33.33%;
+  height: 33.33%;
+  position: absolute;
+}
+
+#four-knights-guarinis-problem-1 {
+  top: 0%;
+  left: 0%;
+
+  border-top-left-radius: 12%;
+  z-index: 2;
+  background-color: #ffce9e;
+  transition-duration: var(--trans-dur);
+}
+
+#four-knights-guarinis-problem-2 {
+  top: 0%;
+  left: 33.33%;
+
+  background-color: #d18b47;
+  z-index: 2;
+}
+#four-knights-guarinis-problem-3 {
+  top: 0%;
+  left: 66.66%;
+
+  background-color: #ffce9e;
+  border-top-right-radius: 12%;
+  z-index: 2;
+}
+
+#four-knights-guarinis-problem-4 {
+  top: 33.33%;
+  left: 0%;
+
+  z-index: 2;
+  background-color: #d18b47;
+  transition-duration: var(--trans-dur);
+}
+
+#four-knights-guarinis-problem-5 {
+  top: 33.33%;
+  left: 33.33%;
+
+  background-color: #ffce9e;
+  z-index: 2;
+}
+#four-knights-guarinis-problem-6 {
+  top: 33.33%;
+  left: 66.66%;
+
+  background-color: #d18b47;
+  z-index: 2;
+}
+#four-knights-guarinis-problem-7 {
+  top: 66.66%;
+  left: 0%;
+
+  background-color: #ffce9e;
+  border-bottom-left-radius: 12%;
+}
+
+#four-knights-guarinis-problem-8 {
+  top: 66.66%;
+  left: 33.33%;
+
+  background-color: #d18b47;
+  z-index: 2;
+}
+#four-knights-guarinis-problem-9 {
+  top: 66.66%;
+  left: 66.66%;
+
+  border-bottom-right-radius: 12%;
+  background-color: #ffce9e;
+  z-index: 2;
+}

@@ -1,0 +1,241 @@
+#arctic-knights {
+  /* width: 100%; */
+  aspect-ratio: 5/4 auto;
+
+  width: 200px;
+  margin: 5px;
+
+  background-color: #4a619e;
+  position: relative;
+}
+
+#arctic-knights .knight-b {
+  width: 20%;
+  height: 25%;
+}
+#arctic-knights .knight-w {
+  width: 20%;
+  height: 25%;
+}
+
+.goal#arctic-knights {
+  background-color: #f2f2f2;
+}
+.playfield#arctic-knights {
+  background-color: #f2f2f2;
+}
+#arctic-knights .knight {
+  width: 20%;
+  aspect-ratio: 1/1;
+  position: absolute;
+}
+
+#arctic-knights-1 {
+  top: 0%;
+  left: 0%;
+
+  background-color: transparent;
+  z-index: 2;
+}
+#arctic-knights-2 {
+  top: 0%;
+  left: 20%;
+
+  background-color: #4a619e;
+  border-radius: 0 0 12% 0;
+  z-index: 2;
+}
+#arctic-knights-2-dubl {
+  top: 0%;
+  left: 20%;
+
+  background-color: #6c93e7;
+  z-index: 1;
+}
+#arctic-knights-3 {
+  top: 0%;
+  left: 40%;
+
+  background-color: #6c93e7;
+  border-radius: 12% 12% 0 0;
+
+  z-index: 2;
+}
+#arctic-knights-4 {
+  top: 0%;
+  left: 60%;
+
+  background-color: #4a619e;
+  border-radius: 0 0 0 12%;
+  z-index: 2;
+}
+#arctic-knights-4-dubl {
+  top: 0%;
+  left: 60%;
+
+  background-color: #6c93e7;
+  z-index: 1;
+}
+#arctic-knights-5 {
+  top: 0%;
+  left: 80%;
+
+  background-color: transparent;
+  z-index: 2;
+}
+#arctic-knights-6 {
+  top: 25%;
+  left: 0%;
+
+  background-color: #4a619e;
+  border-radius: 0 0 12% 0;
+  z-index: 2;
+}
+#arctic-knights-6-dubl {
+  top: 25%;
+  left: 0%;
+
+  background-color: #6c93e7;
+  z-index: 1;
+}
+#arctic-knights-7 {
+  top: 25%;
+  left: 20%;
+
+  background-color: #6c93e7;
+  border-radius: 12% 0 0 0;
+
+  z-index: 2;
+}
+#arctic-knights-8 {
+  top: 25%;
+  left: 40%;
+
+  background-color: #a8c4ff;
+  z-index: 2;
+}
+#arctic-knights-9 {
+  top: 25%;
+  left: 60%;
+
+  background-color: #6c93e7;
+  border-radius: 0 12% 0 0;
+
+  z-index: 2;
+}
+#arctic-knights-10 {
+  top: 25%;
+  left: 80%;
+
+  background-color: #4a619e;
+  border-radius: 0 0 0 12%;
+  z-index: 2;
+}
+#arctic-knights-10-dubl {
+  top: 25%;
+  left: 80%;
+
+  background-color: #6c93e7;
+  z-index: 1;
+}
+#arctic-knights-11 {
+  top: 50%;
+  left: 0%;
+
+  background-color: #6c93e7;
+  border-radius: 12% 0 0 12%;
+
+  z-index: 2;
+}
+#arctic-knights-12 {
+  top: 50%;
+  left: 20%;
+
+  background-color: #a8c4ff;
+  z-index: 2;
+}
+#arctic-knights-13 {
+  top: 50%;
+  left: 40%;
+
+  background-color: #4a619e;
+  border-radius: 12% 12% 0 0;
+  z-index: 2;
+}
+#arctic-knights-13-dubl {
+  top: 50%;
+  left: 40%;
+
+  background-color: #a8c4ff;
+  z-index: 1;
+}
+#arctic-knights-14 {
+  top: 50%;
+  left: 60%;
+
+  background-color: #a8c4ff;
+  z-index: 2;
+}
+#arctic-knights-15 {
+  top: 50%;
+  left: 80%;
+
+  background-color: #6c93e7;
+  border-radius: 0 12% 12% 0;
+
+  z-index: 2;
+}
+#arctic-knights-16 {
+  top: 75%;
+  left: 0%;
+
+  background-color: #4a619e;
+  border-radius: 0 12% 0 0;
+  z-index: 2;
+}
+#arctic-knights-16-dubl {
+  top: 75%;
+  left: 0%;
+
+  background-color: #6c93e7;
+  z-index: 1;
+}
+#arctic-knights-17 {
+  top: 75%;
+  left: 20%;
+
+  background-color: #6c93e7;
+  border-radius: 0 0 12% 12%;
+
+  z-index: 2;
+}
+#arctic-knights-18 {
+  top: 75%;
+  left: 40%;
+
+  background-color: transparent;
+}
+#arctic-knights-19 {
+  top: 75%;
+  left: 60%;
+
+  background-color: #6c93e7;
+  border-radius: 0 0 12% 12%;
+
+  z-index: 2;
+}
+#arctic-knights-20 {
+  top: 75%;
+  left: 80%;
+
+  background-color: #4a619e;
+  border-radius: 12% 0 0 0;
+  z-index: 2;
+}
+#arctic-knights-20-dubl {
+  top: 75%;
+  left: 80%;
+
+  background-color: #6c93e7;
+  z-index: 1;
+}

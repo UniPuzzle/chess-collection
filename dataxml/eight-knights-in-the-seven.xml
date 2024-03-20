@@ -1,0 +1,20 @@
+  
+<puzzle id="CHP" class="sqm.chess">
+  <challenge id="28">
+	<date>2021.11.06.08.42.49</date>
+    <designer>
+           	<name type="author" id="SGR">Serhiy Grabarchuk</name>
+	</designer>
+	<title>Eight Knights in the Seven</title>
+	<setup goal="image:generate">
+		<rules type="text">EIGHT KNIGHTS IN THE SEVEN chess puzzle is one of the most difficult chess knight puzzles. In ancient chess, this figure represented the "cavalry" - a rider on a horse. In France, a chess horse is a cavalier (cavalier), in England it is a knight (knight), in Germany (springer), Poland (skoczek), Croatia (skakač), its name is translated as “jumper”, “horse”. The knight is the only piece that jumps over other pieces - whether it's its own or an opponent's figure. This chess puzzle is designed to teach you how to find the fastest way to get a piece "from point A to point B." In tasks of this type, the goal is to swap four black knights with four white knights on the chessboard in the format of the number "7". Try to spend no more than 12 moves to solve the chess problem</rules>
+        <grid width="4" height="4">
+            <board img="eight-knights-in-the-seven-board.svg">0,1,2,3,4,6,7,9,10,13,14</board>
+             <piece cell="2">N,b</piece><piece cell="3">N,b</piece><piece cell="6">N,b</piece><piece cell="7">N,b</piece><piece cell="9">N,w</piece><piece cell="10">N,w</piece><piece cell="13">N,w</piece><piece cell="14">N,w</piece>                             
+             </grid>  
+		<solution type="generate"></solution>
+	</setup>
+ </challenge>
+</puzzle>
+
+ 

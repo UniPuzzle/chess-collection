@@ -1,0 +1,215 @@
+#x-steeplechase {
+  /* height: 100%; */
+  height: 200px;
+  margin: 5px;
+  aspect-ratio: 3/5 auto;
+  background-color: #4a619e;
+  position: relative;
+}
+
+#x-steeplechase .knight-b {
+  width: 33.33%;
+  height: 20%;
+}
+#x-steeplechase .knight-w {
+  width: 33.33%;
+  height: 20%;
+}
+
+.goal#x-steeplechase {
+  background-color: #f2f2f2;
+}
+.playfield#x-steeplechase {
+  background-color: #f2f2f2;
+}
+
+#x-steeplechase .knight {
+  width: 33.33%;
+  aspect-ratio: 1/1;
+  position: absolute;
+}
+
+#x-steeplechase-1 {
+  top: 0;
+  left: 0;
+
+  background-color: #afb734;
+  border-top-left-radius: 12%;
+  border-top-right-radius: 12%;
+  z-index: 3;
+}
+#x-steeplechase-2 {
+  top: 0;
+  left: 33.33%;
+  background-color: #4a619e;
+  border-bottom-left-radius: 12%;
+  border-bottom-right-radius: 12%;
+  z-index: 2;
+}
+
+#x-steeplechase-2-dubl {
+  top: 0;
+  left: 33.33%;
+  position: absolute;
+  background-color: #afb734;
+  z-index: 1;
+  /* border: 1px solid #afb734; */
+}
+#x-steeplechase-3 {
+  top: 0;
+  left: 66.6%;
+  background-color: #afb734;
+  border-top-left-radius: 12%;
+  border-top-right-radius: 12%;
+}
+#x-steeplechase-4 {
+  top: 20%;
+  left: 0;
+  background-color: #48567b;
+  border-bottom-left-radius: 12%;
+}
+#x-steeplechase-5 {
+  top: 20%;
+  left: 33.33%;
+  background-color: #afb734;
+}
+#x-steeplechase-6 {
+  top: 20%;
+  left: 66.6%;
+  background-color: #48567b;
+  border-bottom-right-radius: 12%;
+}
+#x-steeplechase-7 {
+  top: 40%;
+  left: 0%;
+  border-top-right-radius: 12%;
+  border-bottom-right-radius: 12%;
+  background-color: #4a619e;
+  z-index: 2;
+}
+.goal #x-steeplechase-7 {
+  background-color: #f2f2f2;
+}
+.playfield #x-steeplechase-7 {
+  background-color: #f2f2f2;
+}
+#x-steeplechase-7-dubl {
+  top: 40%;
+  left: 0%;
+  position: absolute;
+  background-color: #48567b;
+  height: 20%;
+  aspect-ratio: 1.1;
+  z-index: 1;
+  /* border: 1px solid #48567b; */
+}
+
+#x-steeplechase-8 {
+  top: 40%;
+  left: 33.33%;
+  background-color: #48567b;
+}
+#x-steeplechase-9 {
+  top: 40%;
+  left: 66.6%;
+  border-top-left-radius: 12%;
+  border-bottom-left-radius: 12%;
+  background-color: #4a619e;
+  z-index: 2;
+}
+.goal #x-steeplechase-9 {
+  background-color: #f2f2f2;
+}
+.playfield #x-steeplechase-9 {
+  background-color: #f2f2f2;
+}
+#x-steeplechase-9-dubl {
+  top: 40%;
+  left: 66.6%;
+  position: absolute;
+  background-color: #48567b;
+  height: 20%;
+  aspect-ratio: 1.1;
+
+  z-index: 1;
+  /* border: 1px solid #48567b; */
+}
+#x-steeplechase-10 {
+  top: 60%;
+  left: 0%;
+  background-color: #48567b;
+  border-top-left-radius: 12%;
+}
+#x-steeplechase-11 {
+  top: 60%;
+  left: 33.33%;
+  background-color: #afb734;
+}
+#x-steeplechase-12 {
+  top: 60%;
+  left: 66.66%;
+  background-color: #48567b;
+  border-top-right-radius: 12%;
+}
+#x-steeplechase-13 {
+  top: 80%;
+  left: 0;
+
+  background-color: #afb734;
+  border-bottom-left-radius: 12%;
+  border-bottom-right-radius: 12%;
+  z-index: 3;
+}
+
+#x-steeplechase-14 {
+  top: 80%;
+  left: 33.33%;
+  background-color: #4a619e;
+  border-top-left-radius: 12%;
+  border-top-right-radius: 12%;
+  z-index: 2;
+}
+.goal #x-steeplechase-14 {
+  background-color: #f2f2f2;
+}
+.playfield #x-steeplechase-14 {
+  background-color: #f2f2f2;
+}
+#x-steeplechase-14-dubl {
+  top: 80%;
+  left: 33.33%;
+  position: absolute;
+  background-color: #afb734;
+  z-index: 1;
+  width: 33.33%;
+  aspect-ratio: 1.1;
+}
+#x-steeplechase-15 {
+  top: 80%;
+  left: 66.66%;
+
+  background-color: #afb734;
+  border-bottom-left-radius: 12%;
+  border-bottom-right-radius: 12%;
+  z-index: 3;
+}
+.knight-b::before {
+  content: '';
+  width: 100%;
+  height: 87%;
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chess-black.svg);
+}
+.knight-w::before {
+  content: '';
+  width: 100%;
+  height: 87%;
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chess-white.svg);
+}

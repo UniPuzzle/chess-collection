@@ -1,0 +1,202 @@
+#horses-by-the-pond {
+  /* width: 100%; */
+  width: 200px;
+  margin: 10px;
+  aspect-ratio: 6/3 auto;
+  position: relative;
+}
+
+/* .chess-wrapper#horses-by-the-pond::before {
+  content: '';
+  width: 102%;
+  height: 102%;
+
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/horses-by-the-pond.svg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+} */
+#horses-by-the-pond .knight-b {
+  width: 16.66%;
+  height: 33.33%;
+}
+#horses-by-the-pond .knight-w {
+  width: 16.66%;
+  height: 33.33%;
+}
+.goal#horses-by-the-pond {
+  background-color: #f2f2f2;
+}
+.playfield#horses-by-the-pond {
+  background-color: #f2f2f2;
+}
+#horses-by-the-pond .knight {
+  width: 16.66%;
+  aspect-ratio: 1/1;
+  position: absolute;
+}
+
+#horses-by-the-pond-1 {
+  top: 0%;
+  left: 0%;
+
+  background-color: #87cf02;
+  border-radius: 12% 0 0 0;
+  z-index: 3;
+}
+#horses-by-the-pond-2 {
+  top: 0%;
+  left: 16.66%;
+
+  background-color: #ced662;
+  z-index: 3;
+}
+#horses-by-the-pond-3 {
+  top: 0%;
+  left: 33.32%;
+
+  background-color: #87cf02;
+  z-index: 3;
+}
+#horses-by-the-pond-4 {
+  top: 0%;
+  left: 49.98%;
+
+  background-color: #ced662;
+  z-index: 3;
+}
+#horses-by-the-pond-5 {
+  top: 0%;
+  left: 66.64%;
+
+  background-color: #87cf02;
+  z-index: 3;
+}
+#horses-by-the-pond-6 {
+  top: 0%;
+  left: 83.3%;
+
+  background-color: #ced662;
+  border-radius: 0 12% 0 0;
+  z-index: 3;
+}
+#horses-by-the-pond-7 {
+  top: 33.33%;
+  left: 0%;
+
+  background-color: #ced662;
+  z-index: 3;
+}
+#horses-by-the-pond-8 {
+  top: 33.33%;
+  left: 16.66%;
+
+  background-color: #f2f2f2;
+  border-radius: 12% 0 0 12%;
+  z-index: 3;
+}
+#horses-by-the-pond-8-dubl {
+  top: 33.33%;
+  left: 16.66%;
+
+  background-color: #ced662;
+  z-index: 1;
+}
+#horses-by-the-pond-9 {
+  top: 33.33%;
+  left: 66.64%;
+
+  background-color: #f2f2f2;
+  border-radius: 0 12% 12% 0;
+  z-index: 3;
+}
+#horses-by-the-pond-9-dubl {
+  top: 33.33%;
+  left: 66.64%;
+
+  background-color: #87cf02;
+  z-index: 1;
+}
+div.round {
+  width: 500px;
+  height: 50px;
+  background-image: radial-gradient(
+    circle at 100% 100%,
+    rgba(204, 0, 0, 0) 14px,
+    #c00 15px
+  );
+  /* radial-gradient(circle at 0 0, rgba(204,0,0,0) 14px, #c00 15px),
+		radial-gradient(circle at 100% 0, rgba(204,0,0,0) 14px, #c00 15px), */
+  /* radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #c00 15px); */
+}
+#horses-by-the-pond-10 {
+  top: 33.33%;
+  left: 83.3%;
+
+  /* background-color: #87cf02; */
+  z-index: 3;
+}
+#horses-by-the-pond-11 {
+  top: 66.66%;
+  left: 0%;
+
+  background-color: #87cf02;
+  border-radius: 0 0 0 12%;
+  z-index: 3;
+}
+
+#horses-by-the-pond-12 {
+  top: 66.666%;
+  left: 16.66%;
+
+  background-color: #ced662;
+  z-index: 3;
+}
+#horses-by-the-pond-13 {
+  top: 66.66%;
+  left: 33.32%;
+
+  background-color: #87cf02;
+  z-index: 3;
+}
+#horses-by-the-pond-14 {
+  top: 66.66%;
+  left: 49.98%;
+
+  background-color: #ced662;
+  z-index: 3;
+}
+#horses-by-the-pond-15 {
+  top: 66.66%;
+  left: 66.64%;
+
+  background-color: #87cf02;
+  z-index: 3;
+}
+#horses-by-the-pond-16 {
+  top: 66.66%;
+  left: 83.3%;
+
+  background-color: #ced662;
+  border-radius: 0 0 12% 0;
+  z-index: 3;
+}
+#horses-by-the-pond-17 {
+  top: 33.33%;
+  left: 33.32%;
+
+  background-color: #f2f2f2;
+  z-index: 3;
+}
+#horses-by-the-pond-18 {
+  top: 33.33%;
+  left: 49.98%;
+
+  background-color: #f2f2f2;
+  z-index: 3;
+}

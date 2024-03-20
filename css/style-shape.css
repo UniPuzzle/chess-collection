@@ -1,7 +1,7 @@
 .wrapp {
   background-color: antiquewhite;
 }
-.card-wrapp {
+/* .card-wrapp {
   display: flex;
   height: 100vh;
   align-items: center;
@@ -37,7 +37,7 @@
   aspect-ratio: 1/1;
   left: 33.33%;
   z-index: 1;
-  /* border: 1px solid #afb734; */
+
 }
 #x-s-3 {
   background-color: #afb734;
@@ -69,8 +69,7 @@
   left: 0;
   z-index: 1;
   width: 33.33%;
-  aspect-ratio: 1/1;
-  /* border: 1px solid #48567b; */
+
 }
 #x-s-8 {
   background-color: #48567b;
@@ -90,7 +89,7 @@
   z-index: 1;
   width: 33.33%;
   aspect-ratio: 1/1;
-  /* border: 1px solid #48567b; */
+
 }
 #x-s-10 {
   border-top-left-radius: 12px;
@@ -127,12 +126,15 @@
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   background-color: #afb734;
-}
+} */
 /* ===================v2============ */
-.chess-wrapperv2 {
-  margin-left: 50px;
+.chess-wrapper {
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
-#x-steeplechasev2 {
+#x-steeplechase {
   height: 70%;
   aspect-ratio: 3/5 auto;
   background-color: antiquewhite;
@@ -147,24 +149,24 @@
   position: absolute;
 }
 
-#x-s-1v2 {
+#x-s-1 {
   top: 0;
   left: 0;
 
   background-color: #afb734;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-top-left-radius: 12%;
+  border-top-right-radius: 12%;
   z-index: 3;
 }
-#x-s-2v2 {
+#x-s-2 {
   top: 0;
   left: 33.33%;
   background-color: antiquewhite;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12%;
+  border-bottom-right-radius: 12%;
   z-index: 2;
 }
-#x-s-2-dublv2 {
+#x-s-2-dubl {
   top: 0;
   left: 33.33%;
   position: absolute;
@@ -172,39 +174,39 @@
   z-index: 1;
   /* border: 1px solid #afb734; */
 }
-#x-s-3v2 {
+#x-s-3 {
   top: 0;
   left: 66.6%;
   background-color: #afb734;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-top-left-radius: 12%;
+  border-top-right-radius: 12%;
 }
-#x-s-4v2 {
+#x-s-4 {
   top: 20%;
   left: 0;
   background-color: #48567b;
-  border-bottom-left-radius: 12px;
+  border-bottom-left-radius: 12%;
 }
-#x-s-5v2 {
+#x-s-5 {
   top: 20%;
   left: 33.33%;
   background-color: #afb734;
 }
-#x-s-6v2 {
+#x-s-6 {
   top: 20%;
   left: 66.6%;
   background-color: #48567b;
-  border-bottom-right-radius: 12px;
+  border-bottom-right-radius: 12%;
 }
-#x-s-7v2 {
+#x-s-7 {
   top: 40%;
   left: 0%;
-  border-top-right-radius: 12px;
-  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12%;
+  border-bottom-right-radius: 12%;
   background-color: antiquewhite;
   z-index: 2;
 }
-#x-s-7-dublv2 {
+#x-s-7-dubl {
   top: 40%;
   left: 0%;
   position: absolute;
@@ -214,20 +216,20 @@
   z-index: 1;
   /* border: 1px solid #48567b; */
 }
-#x-s-8v2 {
+#x-s-8 {
   top: 40%;
   left: 33.33%;
   background-color: #48567b;
 }
-#x-s-9v2 {
+#x-s-9 {
   top: 40%;
   left: 66.6%;
-  border-top-left-radius: 12px;
-  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12%;
+  border-bottom-left-radius: 12%;
   background-color: antiquewhite;
   z-index: 2;
 }
-#x-s-9-dublv2 {
+#x-s-9-dubl {
   top: 40%;
   left: 66.6%;
   position: absolute;
@@ -238,41 +240,41 @@
   z-index: 1;
   /* border: 1px solid #48567b; */
 }
-#x-s-10v2 {
+#x-s-10 {
   top: 60%;
   left: 0%;
   background-color: #48567b;
-  border-top-left-radius: 12px;
+  border-top-left-radius: 12%;
 }
-#x-s-11v2 {
+#x-s-11 {
   top: 60%;
   left: 33.33%;
   background-color: #afb734;
 }
-#x-s-12v2 {
+#x-s-12 {
   top: 60%;
   left: 66.66%;
   background-color: #48567b;
-  border-top-right-radius: 12px;
+  border-top-right-radius: 12%;
 }
-#x-s-13v2 {
+#x-s-13 {
   top: 80%;
   left: 0;
 
   background-color: #afb734;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12%;
+  border-bottom-right-radius: 12%;
   z-index: 3;
 }
-#x-s-14v2 {
+#x-s-14 {
   top: 80%;
   left: 33.33%;
   background-color: antiquewhite;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-top-left-radius: 12%;
+  border-top-right-radius: 12%;
   z-index: 2;
 }
-#x-s-14-dublv2 {
+#x-s-14-dubl {
   top: 80%;
   left: 33.33%;
   position: absolute;
@@ -281,12 +283,117 @@
   width: 33.33%;
   aspect-ratio: 1.1;
 }
-#x-s-15v2 {
+#x-s-15 {
   top: 80%;
   left: 66.66%;
 
   background-color: #afb734;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12%;
+  border-bottom-right-radius: 12%;
   z-index: 3;
 }
+/* ================= */
+.chess-wrapper div {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.knight-b::before {
+  content: '';
+  width: 100%;
+  height: 87%;
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chess-black.svg);
+}
+.knight-w::before {
+  content: '';
+  width: 100%;
+  height: 87%;
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/chess-white.svg);
+}
+#x-steeplechase {
+  height: 100%;
+  aspect-ratio: 3/5 auto;
+}
+
+#x-steeplechase .knight-b {
+  width: 33.33%;
+  height: 20%;
+}
+#x-steeplechase .knight-w {
+  width: 33.33%;
+  height: 20%;
+}
+
+.goal#x-steeplechase #x-s-1::before {
+  top: 80%;
+  left: 0%;
+}
+.goal#x-steeplechase #x-s-2 {
+  top: 80%;
+  left: 66.6%;
+}
+.goal#x-steeplechase #x-s-3 {
+  top: 60%;
+  left: 0%;
+}
+.goal#x-steeplechase #x-s-4 {
+  top: 60%;
+  left: 66.6%;
+}
+.goal#x-steeplechase #x-s-5 {
+  top: 20%;
+  left: 0%;
+}
+.goal#x-steeplechase #x-s-6 {
+  top: 20%;
+  left: 66.6%;
+}
+.goal#x-steeplechase #x-s-7 {
+  top: 0%;
+  left: 0%;
+}
+.goal#x-steeplechase #x-s-8 {
+  top: 0%;
+  left: 66.6%;
+}
+/* #x-s-1 {
+  top: 0%;
+  left: 0%;
+}
+#x-s-2 {
+  top: 0%;
+  left: 66.6%;
+}
+#x-s-3 {
+  top: 20%;
+  left: 0%;
+}
+#x-s-4 {
+  top: 20%;
+  left: 66.6%;
+}
+#x-s-5 {
+  top: 60%;
+  left: 0%;
+}
+#x-s-6 {
+  top: 60%;
+  left: 66.6%;
+}
+#x-s-7 {
+  top: 80%;
+  left: 0%;
+}
+#x-s-8 {
+  top: 80%;
+  left: 66.6%;
+} */

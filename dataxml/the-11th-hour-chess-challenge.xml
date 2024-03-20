@@ -1,0 +1,20 @@
+<puzzle id="CHP" class="sqm.chess">
+<challenge id="33">
+<date>2023.29.10.11.42.39</date>
+<designer>
+<name type="author" id="UNA">Unknown Author</name>
+</designer>
+<title>The 11th Hour Chess Challenge</title>
+<setup goal="image:generate">
+<rules type="text">R</rules>
+<grid width="4" height="4">
+<board img="0">1,5,6,9,10,11,12,13,14,15</board>
+<piece cell="1">N,w</piece>
+<piece cell="10">N,w</piece>
+<piece cell="12">N,b</piece>
+<piece cell="14">N,b</piece>
+</grid>
+<solution type="generate"/>
+</setup>
+</challenge>
+</puzzle>

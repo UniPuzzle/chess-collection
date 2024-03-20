@@ -1,0 +1,348 @@
+#the-11th-hour-chess-challenge {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+  background-color: var(--chs-bar-bg);
+  transition-duration: var(--trans-dur);
+}
+.chs-bar__card:hover #the-11th-hour-chess-challenge {
+  background-color: var(--chs-bar-bg-hov);
+}
+@supports (aspect-ratio: 4/4) {
+  #the-11th-hour-chess-challenge {
+    width: 100%;
+    aspect-ratio: 4/4;
+    height: auto;
+  }
+}
+.goal#the-11th-hour-chess-challenge {
+  background-color: var(--goal-bcg);
+  width: 100%;
+  height: 100%;
+}
+@supports (aspect-ratio: 4/4) {
+  .goal#the-11th-hour-chess-challenge {
+    width: 100%;
+    aspect-ratio: 4/4;
+    height: auto;
+  }
+}
+.playfield#the-11th-hour-chess-challenge {
+  background-color: var(--html-color);
+  width: 100%;
+  height: 100%;
+}
+@supports (aspect-ratio: 4/4) {
+  .playfield#the-11th-hour-chess-challenge {
+    width: 100%;
+    aspect-ratio: 4/4;
+    height: auto;
+  }
+}
+
+/* @media screen and (min-width: 768px) {
+  #the-11th-hour-chess-challenge {
+    width: auto;
+    height: 100%;
+    background-color: #4a619e;
+    position: relative;
+  }
+} */
+
+#the-11th-hour-chess-challenge .knight-b {
+  width: 25%;
+  height: 25%;
+}
+#the-11th-hour-chess-challenge .knight-w {
+  width: 25%;
+  height: 25%;
+}
+
+#the-11th-hour-chess-challenge .knight {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+}
+
+/* #the-11th-hour-chess-challenge-1 {
+  top: 0%;
+  left: 0%;
+
+  border-bottom-right-radius: 12%;
+  z-index: 2;
+  background-color: var(--chs-bar-bg);
+  transition-duration: var(--trans-dur);
+}
+.chs-bar__card:hover #the-11th-hour-chess-challenge-1 {
+  background-color: var(--chs-bar-bg-hov);
+}
+.goal #the-11th-hour-chess-challenge-1 {
+  background-color: var(--goal-bcg);
+}
+.playfield #the-11th-hour-chess-challenge-1 {
+  background-color: var(--html-color);
+}
+#the-11th-hour-chess-challenge-1-dubl {
+  top: 0%;
+  left: 0%;
+
+  position: absolute;
+  background-color: #48567b;
+  z-index: 1;
+} */
+#the-11th-hour-chess-challenge-2 {
+  top: 0%;
+  left: 25%;
+
+  background-color: #000000;
+  border-top-left-radius: 12%;
+  border-top-right-radius: 12%;
+  z-index: 2;
+}
+#the-11th-hour-chess-challenge-3 {
+  top: 0%;
+  left: 50%;
+
+  border-bottom-left-radius: 12%;
+  z-index: 2;
+  background-color: var(--chs-bar-bg);
+  transition-duration: var(--trans-dur);
+}
+.chs-bar__card:hover #the-11th-hour-chess-challenge-3 {
+  background-color: var(--chs-bar-bg-hov);
+}
+.goal #the-11th-hour-chess-challenge-3 {
+  background-color: var(--goal-bcg);
+}
+.playfield #the-11th-hour-chess-challenge-3 {
+  background-color: var(--html-color);
+}
+#the-11th-hour-chess-challenge-3-dubl {
+  top: 0%;
+  left: 50%;
+
+  position: absolute;
+  background-color: #000000;
+  z-index: 1;
+}
+/* #the-11th-hour-chess-challenge-4 {
+  top: 0%;
+  left: 75%;
+
+  border-bottom-left-radius: 12%;
+  z-index: 2;
+  background-color: var(--chs-bar-bg);
+  transition-duration: var(--trans-dur);
+}
+.chs-bar__card:hover #the-11th-hour-chess-challenge-4 {
+  background-color: var(--chs-bar-bg-hov);
+}
+.goal #the-11th-hour-chess-challenge-4 {
+  background-color: var(--goal-bcg);
+}
+.playfield #the-11th-hour-chess-challenge-4 {
+  background-color: var(--html-color);
+}
+#the-11th-hour-chess-challenge-4-dubl {
+  top: 0%;
+  left: 75%;
+
+  position: absolute;
+  background-color: #afb734;
+  z-index: 1;
+} */
+/* #the-11th-hour-chess-challenge-5 {
+  top: 25%;
+  left: 0%;
+
+  background-color: #48567b;
+  border-top-left-radius: 12%;
+  border-bottom-left-radius: 12%;
+  z-index: 2;
+} */
+#the-11th-hour-chess-challenge-6 {
+  top: 25%;
+  left: 25%;
+
+  background-color: #ffc451;
+  z-index: 2;
+}
+#the-11th-hour-chess-challenge-7 {
+  top: 25%;
+  left: 50%;
+  border-top-right-radius: 12%;
+  background-color: #000000;
+  z-index: 2;
+}
+
+/* #the-11th-hour-chess-challenge-8 {
+  top: 25%;
+  left: 75%;
+
+  border-top-right-radius: 12%;
+  border-bottom-right-radius: 12%;
+  background-color: #afb734;
+  z-index: 2;
+} */
+#the-11th-hour-chess-challenge-8 {
+  top: 25%;
+  left: 75%;
+
+  border-bottom-left-radius: 12%;
+  z-index: 2;
+  background-color: var(--chs-bar-bg);
+  transition-duration: var(--trans-dur);
+}
+.chs-bar__card:hover #the-11th-hour-chess-challenge-8 {
+  background-color: var(--chs-bar-bg-hov);
+}
+.goal #the-11th-hour-chess-challenge-8 {
+  background-color: var(--goal-bcg);
+}
+.playfield #the-11th-hour-chess-challenge-8 {
+  background-color: var(--html-color);
+}
+#the-11th-hour-chess-challenge-8-dubl {
+  top: 25%;
+  left: 75%;
+
+  position: absolute;
+  background-color: #000000;
+  z-index: 1;
+}
+#the-11th-hour-chess-challenge-9 {
+  top: 50%;
+  left: 0%;
+
+  border-bottom-right-radius: 12%;
+  background-color: var(--chs-bar-bg);
+  transition-duration: var(--trans-dur);
+
+  z-index: 2;
+}
+
+.chs-bar__card:hover #the-11th-hour-chess-challenge-9 {
+  background-color: var(--chs-bar-bg-hov);
+}
+.goal #the-11th-hour-chess-challenge-9 {
+  background-color: var(--goal-bcg);
+}
+.playfield #the-11th-hour-chess-challenge-9 {
+  background-color: var(--html-color);
+}
+#the-11th-hour-chess-challenge-9-dubl {
+  top: 50%;
+  left: 0%;
+
+  background-color: #000000;
+  z-index: 1;
+}
+#the-11th-hour-chess-challenge-10 {
+  top: 50%;
+  left: 25%;
+
+  background-color: #000000;
+}
+
+#the-11th-hour-chess-challenge-11 {
+  top: 50%;
+  left: 50%;
+
+  background-color: #ffc451;
+  z-index: 2;
+}
+
+#the-11th-hour-chess-challenge-12 {
+  top: 50%;
+  left: 75%;
+
+  border-top-right-radius: 12%;
+  background-color: #000000;
+  z-index: 2;
+}
+
+/* .chs-bar__card:hover #the-11th-hour-chess-challenge-12 {
+  background-color: var(--chs-bar-bg-hov);
+}
+.goal #the-11th-hour-chess-challenge-12 {
+  background-color: var(--goal-bcg);
+}
+.playfield #the-11th-hour-chess-challenge-12 {
+  background-color: var(--html-color);
+}
+#the-11th-hour-chess-challenge-12-dubl {
+  top: 50%;
+  left: 75%;
+
+  background-color: #afb734;
+  z-index: 1;
+} */
+
+#the-11th-hour-chess-challenge-13 {
+  top: 75%;
+  left: 0%;
+
+  border-top-left-radius: 12%;
+  border-bottom-left-radius: 12%;
+  background-color: #000000;
+  transition-duration: var(--trans-dur);
+
+  z-index: 2;
+}
+
+/* .chs-bar__card:hover #the-11th-hour-chess-challenge-13 {
+  background-color: var(--chs-bar-bg-hov);
+}
+.goal #the-11th-hour-chess-challenge-13 {
+  background-color: var(--goal-bcg);
+}
+.playfield #the-11th-hour-chess-challenge-13 {
+  background-color: var(--html-color);
+}
+#the-11th-hour-chess-challenge-13-dubl {
+  top: 75%;
+  left: 0%;
+
+  z-index: 1;
+} */
+
+#the-11th-hour-chess-challenge-14 {
+  top: 75%;
+  left: 25%;
+
+  background-color: #ffc451;
+  z-index: 2;
+}
+#the-11th-hour-chess-challenge-15 {
+  top: 75%;
+  left: 50%;
+
+  background-color: #000000;
+  z-index: 2;
+}
+#the-11th-hour-chess-challenge-16 {
+  top: 75%;
+  left: 75%;
+
+  z-index: 2;
+  background-color: #ffc451;
+  border-bottom-right-radius: 12%;
+  transition-duration: var(--trans-dur);
+}
+/* .chs-bar__card:hover #the-11th-hour-chess-challenge-16 {
+  background-color: var(--chs-bar-bg-hov);
+}
+.goal #the-11th-hour-chess-challenge-16 {
+  background-color: var(--goal-bcg);
+}
+.playfield #the-11th-hour-chess-challenge-16 {
+  background-color: var(--html-color);
+} */
+/* #the-11th-hour-chess-challenge-16-dubl {
+  top: 75%;
+  left: 75%;
+
+  background-color: #48567b;
+  z-index: 1;
+} */

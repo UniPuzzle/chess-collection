@@ -1,0 +1,20 @@
+  
+<puzzle id="CHP" class="sqm.chess">
+  <challenge id="25">
+	<date>2021.23.02.07.40.50</date>
+    <designer>
+           	<name type="author" id="SGR">Serhiy Grabarchuk</name>
+	</designer>
+	<title>Knights in the Castle</title>
+	<setup goal="image:generate">
+		<rules type="text">KNIGHTS IN THE CASTLE will help encourage those who do not know and do not know how to play this ancient board game to play chess. Chess puzzles develop the ability to think and reason logically, influence creativity, improve memory and help in learning. Numerous studies show that playing chess helps to be more organized, responsible and balanced. Chess problems develop the ability to think and reason logically, influence creativity, improve memory and help in learning. Numerous studies show that playing chess helps to be more organized, responsible and balanced. On the board in the form of a castle there are four black and four white horse-knights. Try to swap the pieces in 16 moves, thus conquer the fortress and solve the puzzle chess</rules>
+        <grid width="4" height="4">
+            <board img="knights-in-the-castle-board.svg">1,3,4,5,6,7,8,9,10,11,12,14</board>
+             <piece cell="4">N,w</piece><piece cell="5">N,w</piece><piece cell="6">N,b</piece><piece cell="7">N,b</piece><piece cell="8">N,w</piece><piece cell="9">N,w</piece><piece cell="10">N,b</piece><piece cell="11">N,b</piece>                             
+             </grid>  
+		<solution type="generate">6-15,12-6-13,15-6-12,13-6,11-2,5-11-4,2-11-5,4-11,8-15,10-8-2,15-8-10,2-8,9-2,7-9-15,2-9-7,15-9</solution>
+	</setup>
+ </challenge>
+</puzzle>
+
+ 

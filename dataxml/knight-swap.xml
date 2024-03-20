@@ -1,0 +1,20 @@
+  
+<puzzle id="CHP" class="sqm.chess">
+  <challenge id="35">
+	<date>2023.22.11.07.09.52</date>
+    <designer>
+           	<name type="author" id="SGS">Serhiy Grabarchuk Jr</name>
+	</designer>
+	<title>Knight Swap</title>
+	<setup goal="image:generate">
+		<rules type="text">Rules</rules>
+        <grid width="4" height="4">
+            <board img="0">1,2,4,5,6,7,9,10,13,14</board>
+             <piece cell="1">N,w</piece><piece cell="2">N,w</piece><piece cell="13">N,b</piece><piece cell="14">N,b</piece>                             
+             </grid>  
+		<solution type="generate">1-2-3</solution>
+	</setup>
+ </challenge>
+</puzzle>
+
+ 
