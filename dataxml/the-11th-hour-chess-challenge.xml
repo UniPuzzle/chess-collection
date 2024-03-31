@@ -18,3 +18,23 @@
 </setup>
 </challenge>
 </puzzle>
+
+
+<title>Knight Squadrons</title>
+<setup goal="image:generate">
+<rules type="text">Rules</rules>
+<grid width="4" height="4">
+<board img="knight-squadrons-board.svg">1,2,4,5,6,7,8,9,10,11,13,14</board>
+<piece cell="4">N,w</piece>
+<piece cell="5">N,w</piece>
+<piece cell="6">N,b</piece>
+<piece cell="7">N,b</piece>
+<piece cell="8">N,w</piece>
+<piece cell="9">N,w</piece>
+<piece cell="10">N,b</piece>
+<piece cell="11">N,b</piece>
+</grid>
+<solution type="generate">9-15,7-9,10-3,8-10,15-8,5-14-7,12-14,11-5,8-2-11,6-15-8,14-12-6,3-12</solution>
+</setup>
+</challenge>
+</puzzle>

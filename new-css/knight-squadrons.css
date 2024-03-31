@@ -1,0 +1,282 @@
+#knight-squadrons {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+  background-color: var(--chs-bar-bg);
+  -webkit-transition-duration: var(--trans-dur);
+  -o-transition-duration: var(--trans-dur);
+  transition-duration: var(--trans-dur);
+}
+.chs-bar__card:hover #knight-squadrons {
+  background-color: var(--chs-bar-bg-hov);
+}
+@supports (aspect-ratio: 4/4) {
+  #knight-squadrons {
+    width: 100%;
+    aspect-ratio: 4/4;
+    height: auto;
+  }
+}
+.goal#knight-squadrons {
+  background-color: var(--goal-bcg);
+  width: 100%;
+  height: 100%;
+}
+@supports (aspect-ratio: 4/4) {
+  .goal#knight-squadrons {
+    width: 100%;
+    aspect-ratio: 4/4;
+    height: auto;
+  }
+}
+.playfield#knight-squadrons {
+  background-color: var(--html-color);
+  width: 100%;
+  height: 100%;
+}
+@supports (aspect-ratio: 4/4) {
+  .playfield#knight-squadrons {
+    width: 100%;
+    aspect-ratio: 4/4;
+    height: auto;
+  }
+}
+
+#knight-squadrons .knight-b {
+  width: 25%;
+  height: 25%;
+}
+#knight-squadrons .knight-w {
+  width: 25%;
+  height: 25%;
+}
+
+#knight-squadrons .knight {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+}
+
+#knight-squadrons-1 {
+  top: 0%;
+  left: 0%;
+
+  border-bottom-right-radius: 12%;
+  background-color: var(--chs-bar-bg);
+  -webkit-transition-duration: var(--trans-dur);
+  -o-transition-duration: var(--trans-dur);
+  transition-duration: var(--trans-dur);
+
+  z-index: 2;
+}
+
+.chs-bar__card:hover #knight-squadrons-1 {
+  background-color: var(--chs-bar-bg-hov);
+}
+.goal #knight-squadrons-1 {
+  background-color: var(--goal-bcg);
+}
+.playfield #knight-squadrons-1 {
+  background-color: var(--html-color);
+}
+#knight-squadrons-1-dubl {
+  top: 0%;
+  left: 0%;
+
+  position: absolute;
+  background-color: #6278b1;
+
+  z-index: 1;
+}
+
+#knight-squadrons-2 {
+  top: 0%;
+  left: 25%;
+
+  background-color: #6278b1;
+  border-top-left-radius: 12%;
+
+  z-index: 2;
+}
+#knight-squadrons-3 {
+  top: 0%;
+  left: 50%;
+
+  background-color: #a8c4ff;
+
+  border-top-right-radius: 12%;
+  z-index: 2;
+}
+
+#knight-squadrons-4 {
+  top: 0%;
+  left: 75%;
+
+  border-bottom-left-radius: 12%;
+  background-color: var(--chs-bar-bg);
+  -webkit-transition-duration: var(--trans-dur);
+  -o-transition-duration: var(--trans-dur);
+  transition-duration: var(--trans-dur);
+
+  z-index: 2;
+}
+
+.chs-bar__card:hover #knight-squadrons-4 {
+  background-color: var(--chs-bar-bg-hov);
+}
+.goal #knight-squadrons-4 {
+  background-color: var(--goal-bcg);
+}
+.playfield #knight-squadrons-4 {
+  background-color: var(--html-color);
+}
+#knight-squadrons-4-dubl {
+  top: 0%;
+  left: 75%;
+
+  position: absolute;
+  background-color: #a8c4ff;
+
+  z-index: 1;
+}
+
+#knight-squadrons-5 {
+  top: 25%;
+  left: 0;
+
+  background-color: #6278b1;
+  border-top-left-radius: 12%;
+  z-index: 2;
+}
+#knight-squadrons-6 {
+  top: 25%;
+  left: 25%;
+
+  background-color: #a8c4ff;
+  z-index: 2;
+}
+#knight-squadrons-7 {
+  top: 25%;
+  left: 50%;
+
+  background-color: #6278b1;
+  z-index: 2;
+}
+#knight-squadrons-8 {
+  top: 25%;
+  left: 75%;
+  border-top-right-radius: 12%;
+  background-color: #a8c4ff;
+  z-index: 2;
+}
+
+#knight-squadrons-9 {
+  top: 50%;
+  left: 0;
+
+  background-color: #a8c4ff;
+  border-bottom-left-radius: 12%;
+}
+#knight-squadrons-10 {
+  top: 50%;
+  left: 25%;
+
+  background-color: #6278b1;
+}
+#knight-squadrons-11 {
+  top: 50%;
+  left: 50%;
+
+  background-color: #a8c4ff;
+}
+
+#knight-squadrons-12 {
+  top: 50%;
+  left: 75%;
+
+  background-color: #6278b1;
+  border-bottom-right-radius: 12%;
+  z-index: 2;
+}
+
+#knight-squadrons-13 {
+  top: 75%;
+  left: 0%;
+
+  border-top-right-radius: 12%;
+  background-color: var(--chs-bar-bg);
+  -webkit-transition-duration: var(--trans-dur);
+  -o-transition-duration: var(--trans-dur);
+  transition-duration: var(--trans-dur);
+
+  z-index: 2;
+}
+
+.chs-bar__card:hover #knight-squadrons-13 {
+  background-color: var(--chs-bar-bg-hov);
+}
+.goal #knight-squadrons-13 {
+  background-color: var(--goal-bcg);
+}
+.playfield #knight-squadrons-13 {
+  background-color: var(--html-color);
+}
+#knight-squadrons-13-dubl {
+  top: 75%;
+  left: 0%;
+
+  position: absolute;
+  background-color: #a8c4ff;
+
+  z-index: 1;
+}
+
+#knight-squadrons-14 {
+  top: 75%;
+  left: 25%;
+
+  background-color: #a8c4ff;
+  border-bottom-left-radius: 12%;
+  z-index: 2;
+}
+#knight-squadrons-15 {
+  top: 75%;
+  left: 50%;
+
+  background-color: #6278b1;
+  border-bottom-right-radius: 12%;
+  z-index: 2;
+}
+
+#knight-squadrons-16 {
+  top: 75%;
+  left: 75%;
+
+  border-top-left-radius: 12%;
+  background-color: var(--chs-bar-bg);
+  -webkit-transition-duration: var(--trans-dur);
+  -o-transition-duration: var(--trans-dur);
+  transition-duration: var(--trans-dur);
+
+  z-index: 2;
+}
+
+.chs-bar__card:hover #knight-squadrons-16 {
+  background-color: var(--chs-bar-bg-hov);
+}
+.goal #knight-squadrons-16 {
+  background-color: var(--goal-bcg);
+}
+.playfield #knight-squadrons-16 {
+  background-color: var(--html-color);
+}
+#knight-squadrons-16-dubl {
+  top: 75%;
+  left: 75%;
+
+  position: absolute;
+  background-color: #6278b1;
+
+  z-index: 1;
+}
